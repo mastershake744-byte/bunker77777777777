@@ -58,7 +58,7 @@ export default function FuelCalc() {
           <label>Цена за тонну пеллет:</label>
           <input type="number" name="price" required />
 
-          <button type="button" className="calc-btn" onClick={() => window.fuelCalc.calculate()}>Рассчитать</button>
+          <button type="button" className="calc-btn" onClick={() => (window as any).fuelCalc?.calculate()}>Рассчитать</button>
           <button type="reset" className="calc-btn-reset">Сбросить</button>
         </form>
 

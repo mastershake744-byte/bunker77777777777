@@ -3,6 +3,7 @@ import { categories } from '@/data/categories';
 import { boilersData } from '@/data/products';
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/data/seo';
 
 export function generateStaticParams() {
   return categories.map((c) => ({ url: c.url.replace(/\/$/, '') }));
@@ -16,6 +17,12 @@ export function generateMetadata({ params }: { params: { url: string } }): Metad
   return {
     title: category.seo_title,
     description: category.seo_description,
+    alternates: { canonical: `${SITE_URL}/category/${params.url}/` },
+    openGraph: {
+      title: category.seo_title,
+      description: category.seo_description,
+      url: `${SITE_URL}/category/${params.url}/`,
+    },
   };
 }
 

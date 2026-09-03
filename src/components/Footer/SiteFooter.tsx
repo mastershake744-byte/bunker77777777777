@@ -57,21 +57,21 @@ export default function SiteFooter() {
 
         <div className="footer-contacts">
           <h3>Контакты</h3>
-          <a href="tel:88001234567" className="contact-item">
+          <a href="tel:+73512208088" className="contact-item">
             <span className="contact-icon">
               <svg viewBox="0 0 24 24"><path d="M21 16.5v3a2 2 0 0 1-2.18 2A19.8 19.8 0 0 1 3.5 6.18 2 2 0 0 1 5.5 4h3a2 2 0 0 1 2 1.72c.12.9.34 1.77.66 2.61a2 2 0 0 1-.45 2.11L9.44 11.7a16 16 0 0 0 2.86 2.86l1.26-1.27a2 2 0 0 1 2.11-.45c.84.32 1.71.54 2.61.66A2 2 0 0 1 20 15.5l1 .99Z"/></svg>
             </span>
             <span>
-              <strong>8 (800) 123-45-67</strong>
+              <strong>+7 (351) 220-80-88</strong>
               <small>Ежедневно с 9:00 до 20:00</small>
             </span>
           </a>
-          <a href="mailto:info@teplodom.ru" className="contact-item">
+          <a href="mailto:kotli@teplo-en.ru" className="contact-item">
             <span className="contact-icon">
               <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg>
             </span>
             <span>
-              <strong>info@teplodom.ru</strong>
+              <strong>kotli@teplo-en.ru</strong>
               <small>Ответим в течение 15 минут</small>
             </span>
           </a>
@@ -80,8 +80,8 @@ export default function SiteFooter() {
               <svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-12A7 7 0 0 0 5 9c0 5.8 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg>
             </span>
             <span>
-              <strong>Москва, ул. Примерная, 12</strong>
-              <small>Шоу-рум и офис</small>
+              <strong>Челябинск, ул. Автодорожная, 17</strong>
+              <small>Офис</small>
             </span>
           </div>
           <a href="#" className="map-button">Показать на карте</a>
@@ -90,9 +90,9 @@ export default function SiteFooter() {
 
       <div className="footer-bottom">
         <div className="footer-copyright">
-          © 2025 ТеплоДом. Все права защищены.
+          © 2018–2026 · Цены не являются публичной офертой
           <div className="footer-legal">
-            <a href="#">Политика конфиденциальности</a>
+            <a href="/data-policy/">Правила обработки данных</a>
             <a href="#">Пользовательское соглашение</a>
           </div>
         </div>

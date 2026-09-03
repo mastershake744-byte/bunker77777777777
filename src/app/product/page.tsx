@@ -1,5 +1,18 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { boilersData } from '@/data/products';
+import { SITE_URL } from '@/data/seo';
+
+export const metadata: Metadata = {
+  title: 'Каталог котлов',
+  description: 'Автоматические пеллетные и твердотопливные котлы с бункером. Все модели Vulkan от 11 до 1200 кВт.',
+  alternates: { canonical: `${SITE_URL}/product/` },
+  openGraph: {
+    title: 'Каталог котлов | Теплоэнергетика',
+    description: 'Автоматические пеллетные и твердотопливные котлы с бункером. Все модели Vulkan.',
+    url: `${SITE_URL}/product/`,
+  },
+};
 
 export default function CatalogPage() {
   return (

@@ -38,17 +38,12 @@ export default function ProductView({ product }: { product: Product }) {
         </div>
 
         <div className="product-info">
-          <div className="product-stock-row">
-            <span className="product-label">{product.availability === 'в наличии' ? 'В наличии' : 'Под заказ'}</span>
-          </div>
-
           <h1 className="product-title">{product.name}</h1>
 
-          <p className="product-description">
-            {product.document === 'схема'
-              ? `Полуавтоматический котел с загрузочной камерой. Мощность ${product.characteristics.power}.`
-              : `Автоматический котел с бункером. Мощность ${product.characteristics.power}, объем бункера ${product.characteristics.bunkerVolume}.`}
-          </p>
+<div className="product-stock-row">
+            <span className="product-label product-label-location">Местоположение</span>
+            <span className="product-label product-label-city">{product.sklad || 'Не указан'}</span>
+          </div>
 
           <div className="product-divider"></div>
 
@@ -207,31 +202,25 @@ export default function ProductView({ product }: { product: Product }) {
         )}
       </div>
 
-      <div className="product-video-section">
-        <h3 className="marketing-h3">Почему VULKAN?</h3>
-        <h4 className="marketing-h4">Автоматическая подача топлива — удобство и экономия</h4>
-        <p className="marketing-text">
-          Автоматические котлы VULKAN — это альтернатива газовым и дизельным котлам.
-          Автоматический процесс сжигания и подачи топлива, удобство обслуживания,
-          возможность использования разных видов топлива, высокий КПД до 90%.
-        </p>
-        <div className="video-grid">
-          <div className="video-item">
-            <video autoPlay loop muted playsInline preload="metadata" disablePictureInPicture className="marketing-video">
-              <source src="https://modal-cdn.com/pricing/Modal_Graph_Mobile-Left_250501_v01.hevc.mp4" type="video/mp4" />
-              <source src="https://modal-cdn.com/pricing/Modal_Graph_Mobile-Left_250501_v01.webm" type="video/webm" />
-            </video>
-            <h4 className="video-title">Горелка III поколения «Антишлак»</h4>
-            <p>Эффективно сжигает бурый уголь, пеллеты и штыб</p>
-          </div>
-          <div className="video-item">
-            <video autoPlay loop muted playsInline preload="metadata" disablePictureInPicture className="marketing-video">
-              <source src="https://modal-cdn.com/pricing/Modal_Graph_Mobile-Right_250501_v01.hevc.mp4" type="video/mp4" />
-              <source src="https://modal-cdn.com/pricing/Modal_Graph_Mobile-Right_250501_v01.webm" type="video/webm" />
-            </video>
-            <h4 className="video-title">Экономия до 30% на отоплении</h4>
-            <p>По сравнению с газом и дизельным топливом</p>
-          </div>
+      <div className="product-screenshot-section">
+        <h3 className="marketing-h3 text-[80%]">Фото габаритных размеров {product.name}</h3>
+        <div className="screenshot-grid">
+          {product.screenshot && product.screenshot.length > 0 ? product.screenshot.map((src, i) => (
+            <div className="screenshot-item" key={i}>
+              <div className="marketing-img-wrap">
+                <img src={src} alt={`Габаритные размеры ${product.name}`} className="marketing-video" />
+              </div>
+            </div>
+          )) : (
+            <div className="video-item">
+              <video autoPlay loop muted playsInline preload="metadata" disablePictureInPicture className="marketing-video">
+                <source src="https://modal-cdn.com/pricing/Modal_Graph_Mobile-Right_250501_v01.hevc.mp4" type="video/mp4" />
+                <source src="https://modal-cdn.com/pricing/Modal_Graph_Mobile-Right_250501_v01.webm" type="video/webm" />
+              </video>
+              <h4 className="video-title">Экономия до 30% на отоплении</h4>
+              <p>По сравнению с газом и дизельным топливом</p>
+            </div>
+          )}
         </div>
       </div>
 

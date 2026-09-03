@@ -1,3 +1,5 @@
+import { categories } from '@/data/categories';
+
 export default function Header() {
   return (
     <>
@@ -76,9 +78,9 @@ export default function Header() {
             <div className="header-catalog" id="headerCatalog">
               <a href="/catalog" className="active" id="catalogToggle" aria-haspopup="true" aria-expanded="false">Каталог</a>
               <div className="header-submenu">
-                <a href="#">Вулкан</a>
-                <a href="#">Ротекс</a>
-                <a href="#">Газовый</a>
+                {categories.map((cat) => (
+                  <a key={cat.id} href={`/category/${cat.url}`}>{cat.name}</a>
+                ))}
               </div>
             </div>
             <a href="/kalkulator/">Калькулятор топлива</a>

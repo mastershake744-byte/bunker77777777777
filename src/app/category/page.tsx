@@ -1,5 +1,18 @@
+import type { Metadata } from 'next';
 import { categories } from '@/data/categories';
 import Link from 'next/link';
+import { SITE_URL } from '@/data/seo';
+
+export const metadata: Metadata = {
+  title: 'Категории котлов',
+  description: 'Автоматические пеллетные и твердотопливные котлы Вулкан. Выберите серию: от 11 до 1200 кВт.',
+  alternates: { canonical: `${SITE_URL}/category/` },
+  openGraph: {
+    title: 'Категории котлов | Теплоэнергетика',
+    description: 'Автоматические пеллетные и твердотопливные котлы Вулкан. Выберите серию.',
+    url: `${SITE_URL}/category/`,
+  },
+};
 
 export default function CategoryListPage() {
   return (

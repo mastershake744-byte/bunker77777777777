@@ -13,12 +13,12 @@ export default function Requisites() {
 
             <div className="requisite-item">
               <span className="requisite-label">📌 Юридический адрес</span>
-              <div className="requisite-value">454902 г. Челябинск, пос. Шершни, ул. Гостевая 3, офис 103</div>
+              <div className="requisite-value">454902 г. Челябинск, ул. Автодорожная, 17, офис 103</div>
             </div>
 
             <div className="requisite-item">
               <span className="requisite-label">📮 Почтовый адрес</span>
-              <div className="requisite-value">454902 г. Челябинск, пос. Шершни, ул. Гостевая 3, офис 103</div>
+              <div className="requisite-value">454902 г. Челябинск, ул. Автодорожная, 17, офис 103</div>
             </div>
 
             <div className="requisite-item">
@@ -34,6 +34,11 @@ export default function Requisites() {
             <div className="requisite-item">
               <span className="requisite-label">📋 КПП</span>
               <div className="requisite-value">745301001</div>
+            </div>
+
+            <div className="requisite-item">
+              <span className="requisite-label">📞 Телефон</span>
+              <div className="requisite-value">+7 (351) 220-80-88</div>
             </div>
           </div>
 
@@ -81,6 +86,8 @@ export default function Requisites() {
                 <a href="mailto:stovespares@gmail.com" className="requisite-email-link">stovespares@gmail.com</a>
               </div>
             </div>
+
+
           </div>
 
           <div className="requisites-card">
