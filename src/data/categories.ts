@@ -38,17 +38,6 @@ export const categories: Category[] = [
     seo_description: 'Автоматические твердотопливные котлы BOSS мощностью от 11 до 470 кВт. Надёжность, экономичность, доступные цены.',
   },
   {
-    id: 3,
-    name: 'Твердотопливные котлы GREEN',
-    url: 'tverdotoplivnye-kotly-green/',
-    bread: 'Главная / Каталог / Твердотопливные котлы / GREEN',
-    photo: 'green-category.jpg',
-    products: [39, 40, 41, 42, 43, 44, 45, 46, 47],
-    text: 'Твердотопливные котлы GREEN — компактные и эффективные решения для дома. Автоматическая подача топлива и высокая теплоотдача.',
-    seo_title: 'Купить твердотопливные котлы GREEN | Цены',
-    seo_description: 'Котлы GREEN — доступные автоматические котлы для дома. Мощность от 11 до 115 кВт.',
-  },
-  {
     id: 4,
     name: 'Полуавтоматические котлы ALPHA и RED',
     url: 'poluavtomaticheskie-kotly-alpha-red/',
