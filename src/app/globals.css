@@ -86,7 +86,7 @@ body {
    ============================================ */
 .product-breadcrumbs {
     max-width: 1180px;
-    margin: 0 auto 24px auto;
+    margin: 32px auto 32px auto;
     padding: 0 30px;
 }
 
@@ -94,7 +94,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 6px 4px;
+    gap: 8px 6px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -103,7 +103,7 @@ body {
 .breadcrumb-item {
     display: inline-flex;
     align-items: center;
-    font-size: 13px;
+    font-size: 15px;
     color: var(--text-muted);
 }
 
@@ -113,12 +113,14 @@ body {
     color: var(--text-muted);
     font-weight: 300;
     opacity: 0.5;
+    font-size: 15px;
 }
 
 .breadcrumb-link {
     color: var(--text-secondary);
     text-decoration: none;
     font-weight: 500;
+    font-size: 15px;
     transition: color 0.25s ease, background 0.25s ease;
     padding: 4px 2px;
     border-radius: 4px;
@@ -152,6 +154,7 @@ body {
 .breadcrumb-item.active {
     color: var(--text);
     font-weight: 600;
+    font-size: 15px;
     pointer-events: none;
 }
 
@@ -161,11 +164,11 @@ body {
 @media (max-width: 700px) {
     .product-breadcrumbs {
         padding: 0 16px;
-        margin-bottom: 16px;
+        margin: 24px auto 20px auto;
     }
 
     .breadcrumb-item {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .breadcrumb-item:not(:last-child)::after {
@@ -174,6 +177,7 @@ body {
 
     .breadcrumb-link {
         padding: 3px 2px;
+        font-size: 13px;
     }
 }
 

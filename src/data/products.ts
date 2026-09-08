@@ -2972,7 +2972,7 @@ export const boilersData: Product[] = [
     price: 'по запросу',
     document: 'паспорт',
     razdel: 'Твердотопливные котлы',
-    availability: 'в наличии',
+    availability: 'под заказ',
     sklad: 'Красноярск',
     characteristics: {
       power: '15 кВт',
@@ -2992,7 +2992,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '1,92 кг/ч',
     },
     razmer: { width: '650', height: '1325', depth: '730', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
   {
     id: 102,
@@ -3002,7 +3002,7 @@ export const boilersData: Product[] = [
     price: 'по запросу',
     document: 'паспорт',
     razdel: 'Твердотопливные котлы',
-    availability: 'в наличии',
+    availability: 'под заказ',
     sklad: 'Красноярск',
     characteristics: {
       power: '19 кВт',
@@ -3022,7 +3022,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '2,4 кг/ч',
     },
     razmer: { width: '650', height: '1400', depth: '755', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
   {
     id: 103,
@@ -3032,7 +3032,7 @@ export const boilersData: Product[] = [
     price: 'по запросу',
     document: 'паспорт',
     razdel: 'Твердотопливные котлы',
-    availability: 'в наличии',
+    availability: 'под заказ',
     sklad: 'Красноярск',
     characteristics: {
       power: '25 кВт',
@@ -3052,7 +3052,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '3,18 кг/ч',
     },
     razmer: { width: '650', height: '1417', depth: '960', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
   {
     id: 104,
@@ -3062,7 +3062,7 @@ export const boilersData: Product[] = [
     price: 'по запросу',
     document: 'паспорт',
     razdel: 'Твердотопливные котлы',
-    availability: 'в наличии',
+    availability: 'под заказ',
     sklad: 'Красноярск',
     characteristics: {
       power: '32 кВт',
@@ -3082,7 +3082,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '4,02 кг/ч',
     },
     razmer: { width: '650', height: '1474', depth: '960', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
   {
     id: 105,
@@ -3092,7 +3092,7 @@ export const boilersData: Product[] = [
     price: 'по запросу',
     document: 'паспорт',
     razdel: 'Твердотопливные котлы',
-    availability: 'в наличии',
+    availability: 'под заказ',
     sklad: 'Красноярск',
     characteristics: {
       power: '40 кВт',
@@ -3112,7 +3112,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '6,3 кг/ч',
     },
     razmer: { width: '650', height: '1474', depth: '1040', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
   {
     id: 106,
@@ -3122,7 +3122,7 @@ export const boilersData: Product[] = [
     price: 'по запросу',
     document: 'паспорт',
     razdel: 'Твердотопливные котлы',
-    availability: 'в наличии',
+    availability: 'под заказ',
     sklad: 'Красноярск',
     characteristics: {
       power: '50 кВт',
@@ -3142,7 +3142,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '7,56 кг/ч',
     },
     razmer: { width: '795', height: '1537', depth: '1040', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
   {
     id: 107,
@@ -3152,7 +3152,7 @@ export const boilersData: Product[] = [
     price: 'по запросу',
     document: 'паспорт',
     razdel: 'Твердотопливные котлы',
-    availability: 'в наличии',
+    availability: 'под заказ',
     sklad: 'Красноярск',
     characteristics: {
       power: '60 кВт',
@@ -3172,7 +3172,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '10,08 кг/ч',
     },
     razmer: { width: '795', height: '1590', depth: '1149', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
   {
     id: 108,
@@ -3182,7 +3182,7 @@ export const boilersData: Product[] = [
     price: 'по запросу',
     document: 'паспорт',
     razdel: 'Твердотопливные котлы',
-    availability: 'в наличии',
+    availability: 'под заказ',
     sklad: 'Красноярск',
     characteristics: {
       power: '80 кВт',
@@ -3202,7 +3202,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '12,66 кг/ч',
     },
     razmer: { width: '795', height: '1685', depth: '1265', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
   {
     id: 109,
@@ -3212,7 +3212,7 @@ export const boilersData: Product[] = [
     price: 'по запросу',
     document: 'паспорт',
     razdel: 'Твердотопливные котлы',
-    availability: 'в наличии',
+    availability: 'под заказ',
     sklad: 'Красноярск',
     characteristics: {
       power: '100 кВт',
@@ -3232,7 +3232,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '12,66 кг/ч',
     },
     razmer: { width: '795', height: '1805', depth: '1280', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
 
   // ==================== ФЕНИКС / Z (133-300 кВт) ====================
@@ -3264,7 +3264,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '16,8 кг/ч',
     },
     razmer: { width: '800', height: '1787', depth: '1870', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
   {
     id: 111,
@@ -3294,7 +3294,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '18,9 кг/ч',
     },
     razmer: { width: '800', height: '1763', depth: '1873', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
   {
     id: 112,
@@ -3324,7 +3324,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '25,2 кг/ч',
     },
     razmer: { width: '1170', height: '2015', depth: '2075', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
   {
     id: 113,
@@ -3354,7 +3354,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '31,5 кг/ч',
     },
     razmer: { width: '1170', height: '2050', depth: '2055', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
   {
     id: 114,
@@ -3384,7 +3384,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '37,9 кг/ч',
     },
     razmer: { width: '1170', height: '1975', depth: '2080', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
 
   // ==================== ФЕНИКС (360-1000 кВт) ====================
@@ -3416,7 +3416,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '44,2 кг/ч',
     },
     razmer: { width: '1630', height: '1905', depth: '2855', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
   {
     id: 116,
@@ -3446,7 +3446,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '50,5 кг/ч',
     },
     razmer: { width: '1630', height: '2040', depth: '3040', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
   {
     id: 117,
@@ -3476,7 +3476,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '63,2 кг/ч',
     },
     razmer: { width: '2200', height: '2350', depth: '3350', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
   {
     id: 118,
@@ -3506,7 +3506,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '75,8 кг/ч',
     },
     razmer: { width: '2200', height: '1915', depth: '3310', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
   {
     id: 119,
@@ -3536,7 +3536,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '101,0 кг/ч',
     },
     razmer: { width: '2300', height: '2260', depth: '4370', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
 {
     id: 120,
@@ -3566,7 +3566,7 @@ export const boilersData: Product[] = [
       fuelConsumptionNominal: '126,3 кг/ч',
     },
     razmer: { width: '2200', height: '2480', depth: '4800', unit: 'мм' },
-    photo: 'по запросу',
+    photo: '/images/product/vulkan/f.png',
   },
   // ============================================================================
   //  ГЕКСА (HEXA) - Автоматические пеллетные котлы

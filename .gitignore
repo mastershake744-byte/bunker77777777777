@@ -1,4 +1,8 @@
 node_modules/
 .next/
 out/
-ivan.rar 
+ivan.rar
+.env
+.env.local
+dev.log
+dev.err.log

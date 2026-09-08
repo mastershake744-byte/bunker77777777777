@@ -77,7 +77,7 @@ export default function ProductView({ product }: { product: Product }) {
           </div>
 
           <div className="product-actions">
-            <a className="product-btn product-btn-primary" href={`mailto:kotli@teplo-en.ru?subject=${encodeURIComponent('Заказ с сайта: ' + product.name)}`}>Заказать</a>
+            <a className="product-btn product-btn-primary" href={`/order/?product=${encodeURIComponent(product.url.replace(/\/$/, ''))}`}>Заказать</a>
             <a className="product-btn product-btn-secondary" href="#product-tabs">Подробнее</a>
           </div>
         </div>
