@@ -963,50 +963,18 @@ a.contact-item:hover strong {
   color: #1a472a;
 }
 
-.header-catalog {
-  position: relative;
-}
-
-.header-catalog > a {
+/* Магазин */
+.header-nav a.shop-link,
+.header-nav a[href^="/shop/"] {
   background: #2e7d32;
   color: #fff !important;
   border-radius: 6px;
   padding: 6px 16px;
 }
-
-.header-catalog > a:hover {
+.header-nav a.shop-link:hover,
+.header-nav a[href^="/shop/"]:hover {
   background: #1a472a !important;
   color: #fff !important;
-}
-
-.header-submenu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: #fff;
-  border: 1px solid #e5e7eb;
-  border-radius: 8px;
-  padding: 8px 0;
-  min-width: 160px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  z-index: 100;
-}
-
-.header-catalog.is-open .header-submenu {
-  display: block;
-}
-
-.header-submenu a {
-  display: block;
-  padding: 6px 16px;
-  color: #333 !important;
-  font-size: 13px;
-}
-
-.header-submenu a:hover {
-  background: #e8f5e9 !important;
-  color: #1a472a !important;
 }
 
 /* Правая часть */

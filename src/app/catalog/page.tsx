@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Suspense } from 'react';
 import { SITE_URL } from '@/data/seo';
 import CatalogPageContent from './CatalogContent';
 
@@ -14,5 +15,9 @@ export const metadata: Metadata = {
 };
 
 export default function CatalogPage() {
-  return <CatalogPageContent />;
+  return (
+    <Suspense fallback={<div className="container" style={{padding:40,textAlign:'center',color:'var(--muted)'}}>Загрузка...</div>}>
+      <CatalogPageContent />
+    </Suspense>
+  );
 }
