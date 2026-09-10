@@ -4165,7 +4165,7 @@ export const boilersData: Product[] = [
 availability: 'под заказ',
     sklad: 'Челябинск',
     characteristics: {
-      power: '8-100 кВт (настраивается)',
+      power: '8-100 кВт',
       waterVolume: '233 л',
       chimneyDiameter: '220 мм',
       weight: '840 кг',
