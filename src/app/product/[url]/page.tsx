@@ -22,7 +22,8 @@ export function generateMetadata({ params }: { params: { url: string } }): Metad
       title: `${product.name} — цена ${product.price}`,
       description: `${product.name}. Мощность ${product.characteristics.power} кВт, бункер ${product.characteristics.bunkerVolume} л, вес ${product.characteristics.weight} кг.`,
       url: canonical,
-      type: 'website',
+      siteName: SITE_NAME,
+      locale: 'ru_RU',
       images: [{ url: ogImage, width: 800, height: 800 }],
     },
   };
@@ -39,6 +40,8 @@ export default function ProductPage({ params }: { params: { url: string } }) {
     image: product.photo.startsWith('http') ? product.photo : `${SITE_URL}${product.photo}`,
     description: `${product.name}. Мощность ${product.characteristics.power} кВт, бункер ${product.characteristics.bunkerVolume} л, вес ${product.characteristics.weight} кг.`,
     sku: `VULKAN-${product.id}`,
+    brand: { '@type': 'Brand', name: 'Вулкан' },
+    itemCondition: 'https://schema.org/NewCondition',
     offers: {
       '@type': 'Offer',
       price: product.price.replace(/[^\d]/g, ''),
@@ -48,9 +51,20 @@ export default function ProductPage({ params }: { params: { url: string } }) {
     },
   };
 
+  const breadSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Главная', item: SITE_URL },
+      { '@type': 'ListItem', position: 2, name: 'Магазин', item: `${SITE_URL}/shop/` },
+      { '@type': 'ListItem', position: 3, name: product.name, item: `${SITE_URL}/product/${params.url}/` },
+    ],
+  };
+
   return (
     <>
       <Script id="product-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
+      <Script id="product-breadcrumbs-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadSchema) }} />
       <ProductView product={product} />
     </>
   );

@@ -3,14 +3,20 @@ import Script from 'next/script';
 import HomePage from '@/components/Home';
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION } from '@/data/seo';
 
+const ogImage = `${SITE_URL}/images/og-default.jpg`;
+
 export const metadata: Metadata = {
   title: SITE_NAME,
   description: SITE_DESCRIPTION,
   alternates: { canonical: SITE_URL },
   openGraph: {
+    type: 'website',
+    locale: 'ru_RU',
+    siteName: SITE_NAME,
     title: `${SITE_NAME} — твёрдотопливные и пеллетные котлы`,
     description: SITE_DESCRIPTION,
     url: SITE_URL,
+    images: [{ url: ogImage, width: 1200, height: 630 }],
   },
 };
 
@@ -22,7 +28,7 @@ export default function Page() {
     url: SITE_URL,
     potentialAction: {
       '@type': 'SearchAction',
-      target: { '@type': 'EntryPoint', urlTemplate: `${SITE_URL}/catalog?search_query={search_term_string}` },
+      target: { '@type': 'EntryPoint', urlTemplate: `${SITE_URL}/search/?q={search_term_string}` },
       'query-input': 'required name=search_term_string',
     },
   };

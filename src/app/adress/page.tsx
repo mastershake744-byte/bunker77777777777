@@ -75,7 +75,7 @@ export default function AdressPage() {
                 <div className="contact-block">
                   <div className="label">📞 Телефон</div>
                   <div className="value"><a href="tel:+73512208088">+7 (351) 220-80-88</a></div>
-                  <div className="sub">доб. 101 — отдел продаж</div>
+                  
                 </div>
                 <div className="contact-block">
                   <div className="label">✉ Email</div>

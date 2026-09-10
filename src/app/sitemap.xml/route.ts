@@ -1,5 +1,7 @@
 import { NextRequest } from 'next/server';
 import { boilersData } from '../../data/products';
+import { categories } from '../../data/categories';
+import { articles } from '../../data/articles';
 
 // Helper to extract slugs from products.ts
 function getProductSlugs(): string[] {
@@ -22,6 +24,18 @@ export async function GET(request: NextRequest) {
   const slugs = getProductSlugs();
 
   const urls = slugs.map(slug => `${baseUrl}/product/${slug}`);
+
+  const categorySlugs = categories
+    .map(c => c.url.replace(/\/$/, ''))
+    .filter(Boolean)
+    .map(s => `${baseUrl}/category/${s}/`);
+
+  const articleSlugs = articles
+    .map(a => a.url.replace(/\/$/, ''))
+    .filter(Boolean)
+    .map(s => `${baseUrl}/blog/${s}/`);
+
+  urls.push(...categorySlugs, ...articleSlugs);
 
   // Add other important pages
   urls.push(

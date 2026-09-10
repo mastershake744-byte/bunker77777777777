@@ -1,22 +1,49 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { categories } from '@/data/categories';
 import Link from 'next/link';
-import { SITE_URL } from '@/data/seo';
+import { SITE_URL, SITE_NAME } from '@/data/seo';
+
+const ogImage = `${SITE_URL}/images/og-default.jpg`;
 
 export const metadata: Metadata = {
   title: 'Категории котлов',
   description: 'Автоматические пеллетные и твердотопливные котлы Вулкан. Выберите серию: от 11 до 1200 кВт.',
   alternates: { canonical: `${SITE_URL}/category/` },
   openGraph: {
+    type: 'website',
+    locale: 'ru_RU',
+    siteName: SITE_NAME,
     title: 'Категории котлов | Теплоэнергетика',
     description: 'Автоматические пеллетные и твердотопливные котлы Вулкан. Выберите серию.',
     url: `${SITE_URL}/category/`,
+    images: [{ url: ogImage, width: 1200, height: 630 }],
   },
 };
 
 export default function CategoryListPage() {
+  const catListSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Категории котлов',
+    url: `${SITE_URL}/category/`,
+    inLanguage: 'ru',
+    isPartOf: { '@type': 'WebSite', name: SITE_NAME, url: SITE_URL },
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: categories.length,
+      itemListElement: categories.map((c, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: c.name,
+        url: `${SITE_URL}/category/${c.url}`,
+      })),
+    },
+  };
+
   return (
     <>
+      <Script id="category-list-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(catListSchema) }} />
       <style>{`
 :root{
 --bg:#050807;

@@ -1,17 +1,24 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import Link from 'next/link';
 import { categories } from '@/data/categories';
 import { boilersData } from '@/data/products';
 import { SITE_URL } from '@/data/seo';
+
+const ogImage = `${SITE_URL}/images/og-default.jpg`;
 
 export const metadata: Metadata = {
   title: 'Магазин котлов | Теплоэнергетика',
   description: 'Все котлы Теплоэнергетика: пеллетные, твердотопливные, полуавтоматические. Категории, модели, цены. Доставка по всей России.',
   alternates: { canonical: `${SITE_URL}/shop/` },
   openGraph: {
+    type: 'website',
+    locale: 'ru_RU',
+    siteName: 'Теплоэнергетика',
     title: 'Магазин котлов | Теплоэнергетика',
     description: 'Все котлы Теплоэнергетика: пеллетные, твердотопливные, полуавтоматические.',
     url: `${SITE_URL}/shop/`,
+    images: [{ url: ogImage, width: 1200, height: 630 }],
   },
 };
 
@@ -27,8 +34,28 @@ const parsePower = (s: string) => parseInt(s) || 0;
 const parseBunker = (s: string) => parseInt(s) || 0;
 
 export default function ShopPage() {
+  const shopSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Магазин котлов | Теплоэнергетика',
+    url: `${SITE_URL}/shop/`,
+    inLanguage: 'ru',
+    isPartOf: { '@type': 'WebSite', name: 'Теплоэнергетика', url: SITE_URL },
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: boilersData.length,
+      itemListElement: boilersData.slice(0, 100).map((b, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: b.name,
+        url: `${SITE_URL}/product/${b.url}`,
+      })),
+    },
+  };
+
   return (
     <>
+      <Script id="shop-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(shopSchema) }} />
       <style>{`
 :root{
 --bg:#050807;

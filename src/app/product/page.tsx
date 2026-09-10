@@ -1,22 +1,50 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import Link from 'next/link';
 import { boilersData } from '@/data/products';
-import { SITE_URL } from '@/data/seo';
+import { SITE_URL, SITE_NAME } from '@/data/seo';
+
+const ogImage = `${SITE_URL}/images/og-default.jpg`;
 
 export const metadata: Metadata = {
   title: 'Каталог котлов',
   description: 'Автоматические пеллетные и твердотопливные котлы с бункером. Все модели Vulkan от 11 до 1200 кВт.',
   alternates: { canonical: `${SITE_URL}/product/` },
   openGraph: {
+    type: 'website',
+    locale: 'ru_RU',
+    siteName: SITE_NAME,
     title: 'Каталог котлов | Теплоэнергетика',
     description: 'Автоматические пеллетные и твердотопливные котлы с бункером. Все модели Vulkan.',
     url: `${SITE_URL}/product/`,
+    images: [{ url: ogImage, width: 1200, height: 630 }],
   },
 };
 
 export default function CatalogPage() {
+  const productListSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Каталог котлов',
+    url: `${SITE_URL}/product/`,
+    inLanguage: 'ru',
+    isPartOf: { '@type': 'WebSite', name: SITE_NAME, url: SITE_URL },
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: boilersData.length,
+      itemListElement: boilersData.slice(0, 100).map((b, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: b.name,
+        url: `${SITE_URL}/product/${b.url}`,
+      })),
+    },
+  };
+
   return (
-    <section className="max-w-7xl mx-auto px-4 py-12">
+    <>
+      <Script id="product-list-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productListSchema) }} />
+      <section className="max-w-7xl mx-auto px-4 py-12">
       <h1 className="text-4xl font-bold mb-2">Каталог котлов</h1>
       <p className="text-gray-400 mb-8">Автоматические пеллетные и твердотопливные котлы с бункером</p>
 
@@ -51,5 +79,6 @@ export default function CatalogPage() {
         ))}
       </div>
     </section>
+    </>
   );
 }

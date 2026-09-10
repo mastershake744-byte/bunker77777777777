@@ -4,5 +4,6 @@ out/
 ivan.rar
 .env
 .env.local
+ftp_upload.py
 dev.log
 dev.err.log

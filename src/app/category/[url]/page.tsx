@@ -3,7 +3,8 @@ import { categories } from '@/data/categories';
 import { boilersData } from '@/data/products';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { SITE_URL } from '@/data/seo';
+import Script from 'next/script';
+import { SITE_URL, SITE_NAME } from '@/data/seo';
 
 export function generateStaticParams() {
   return categories.map((c) => ({ url: c.url.replace(/\/$/, '') }));
@@ -19,9 +20,13 @@ export function generateMetadata({ params }: { params: { url: string } }): Metad
     description: category.seo_description,
     alternates: { canonical: `${SITE_URL}/category/${params.url}/` },
     openGraph: {
+      type: 'website',
+      locale: 'ru_RU',
+      siteName: SITE_NAME,
       title: category.seo_title,
       description: category.seo_description,
       url: `${SITE_URL}/category/${params.url}/`,
+      images: [{ url: `${SITE_URL}/images/og-default.jpg`, width: 1200, height: 630 }],
     },
   };
 }
@@ -49,8 +54,36 @@ export default function CategoryPage({ params }: { params: { url: string } }) {
   const parsePower = (s: string) => parseInt(s) || 0;
   const parseBunker = (s: string) => parseInt(s) || 0;
 
+  const catSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: category.name,
+    url: `${SITE_URL}/category/${params.url}/`,
+    inLanguage: 'ru',
+    isPartOf: { '@type': 'WebSite', name: SITE_NAME, url: SITE_URL },
+    breadcrumb: {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Главная', item: SITE_URL },
+        { '@type': 'ListItem', position: 2, name: 'Магазин', item: `${SITE_URL}/shop/` },
+        { '@type': 'ListItem', position: 3, name: category.name, item: `${SITE_URL}/category/${params.url}/` },
+      ],
+    },
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: products.length,
+      itemListElement: products.map((p, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: p.name,
+        url: `${SITE_URL}/product/${p.url}`,
+      })),
+    },
+  };
+
   return (
     <>
+      <Script id="category-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(catSchema) }} />
       <style>{`
 :root{
 --bg:#050807;

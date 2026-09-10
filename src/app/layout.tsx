@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
+  verification: {
+    yandex: '923e9952fb11296f',
+  },
   alternates: {
     canonical: SITE_URL,
   },
@@ -40,9 +43,18 @@ export default function RootLayout({
     "@type": "Organization",
     name: SITE_NAME,
     url: SITE_URL,
-    logo: `${SITE_URL}/images/logo.png`,
+    logo: {
+      "@type": "ImageObject",
+      url: `${SITE_URL}/images/logo.png`,
+      width: 1200,
+      height: 630,
+    },
     address: { "@type": "PostalAddress", streetAddress: "ул. Гостевая, 3, офис 103", addressLocality: "Челябинск", addressRegion: "Челябинская область", postalCode: "454902", addressCountry: "RU" },
-    contactPoint: { "@type": "ContactPoint", telephone: ORG_PHONE, email: ORG_EMAIL, contactType: "sales" },
+    contactPoint: [
+      { "@type": "ContactPoint", telephone: ORG_PHONE, email: ORG_EMAIL, contactType: "sales", availableLanguage: "Russian" },
+      { "@type": "ContactPoint", telephone: "+7 (982) 324-95-25", contactType: "customer service", availableLanguage: "Russian" },
+    ],
+    sameAs: [],
   };
 
   return (
