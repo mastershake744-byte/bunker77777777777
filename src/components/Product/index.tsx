@@ -2,6 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import type { Product } from '@/data/products';
+import { getTagForProduct } from '@/components/Tags/tags';
 
 export default function ProductView({ product }: { product: Product }) {
   const [activeTab, setActiveTab] = React.useState('specifications');
@@ -41,13 +42,18 @@ export default function ProductView({ product }: { product: Product }) {
           <h1 className="product-title">{product.name}</h1>
 
 <div className="product-stock-row">
-            <span className="product-label product-label-power">Мощность: {product.characteristics.power}</span>
+            {getTagForProduct(product) && (
+              <Link href={`/tag/${getTagForProduct(product)!.url}/`} className="product-label product-label-power">
+                <span className="product-label-power-caption">Метка:</span>
+                <span className="product-label-power-value">{getTagForProduct(product)!.name}</span>
+              </Link>
+            )}
           </div>
 
           <div className="product-divider"></div>
 
           <div className="product-specs">
-            <div className="product-spec">
+            <div className="product-spec product-spec-location">
               <span>Местоположение</span>
               <strong>{product.sklad || 'Не указан'}</strong>
             </div>

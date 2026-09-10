@@ -290,18 +290,46 @@ body {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
-  margin-top: 6px;
+  margin-top: 14px;
 }
 .product-label-power {
-  --label-color: #fff;
-  --label-bg: rgba(255, 255, 255, 0.12);
-  --label-border: rgba(255, 255, 255, 0.35);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  text-transform: none;
+  letter-spacing: 0;
+  text-decoration: none;
+  padding: 0;
+  border: none;
+  background: none;
+  border-radius: 0;
+}
+.product-label-power-caption {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+}
+.product-label-power-value {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 16px;
+  border-radius: 999px;
   font-size: 13px;
-  padding: 7px 18px;
+  font-weight: 700;
+  color: #000;
+  background: var(--accent, #4CAF50);
+  text-decoration: none;
+  line-height: 1;
+  height: 30px;
+  white-space: nowrap;
 }
 .product-title {
   margin-top: 14px;
-  font-size: clamp(28px, 3.5vw, 42px);
+  font-size: clamp(17px, 2.1vw, 25px);
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: -.02em;
@@ -333,6 +361,7 @@ body {
 }
 .product-spec span { color: var(--text-muted); }
 .product-spec strong { font-weight: 600; }
+.product-spec-location strong { color: var(--stock-color); }
 
 .product-price-row {
   display: flex;

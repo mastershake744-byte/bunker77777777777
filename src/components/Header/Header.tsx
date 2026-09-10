@@ -74,7 +74,6 @@ export default function Header() {
           {/* MENU */}
           <nav className="header-nav" id="headerNav">
             <a href="/shop/" className="active">Магазин</a>
-            <a href="/search/">Поиск</a>
             <a href="/kalkulator/">Калькулятор топлива</a>
             <a href="/delivery/">Конфигуратор</a>
             <a href="/blog/">Статьи</a>

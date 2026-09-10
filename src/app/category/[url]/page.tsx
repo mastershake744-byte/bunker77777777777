@@ -5,6 +5,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import { SITE_URL, SITE_NAME } from '@/data/seo';
+import { getTagForProduct } from '@/components/Tags/tags';
 
 export function generateStaticParams() {
   return categories.map((c) => ({ url: c.url.replace(/\/$/, '') }));
@@ -260,6 +261,7 @@ background:var(--accent);color:#000;font-weight:700;border-color:var(--accent);
           <div className="grid">
             {products.map((p) => {
               const badge = getBadge(p);
+              const tag = getTagForProduct(p);
               return (
                 <Link key={p.id} href={`/product/${p.url.replace(/\/$/, '')}/`} className="product-card" style={{textDecoration:'none',color:'inherit'}}>
                   <div className="product-card-image">
@@ -268,6 +270,7 @@ background:var(--accent);color:#000;font-weight:700;border-color:var(--accent);
                   </div>
                   <div className="product-card-body">
                     <div className="product-model">{p.razdel}</div>
+                    {tag && <Link href={`/tag/${tag.url}/`} className="product-card-tag" style={{display:'inline-block',marginBottom:8,fontSize:11,color:'var(--accent)',textDecoration:'none',textTransform:'uppercase',letterSpacing:1}}>{tag.name}</Link>}
                     <h3>{p.name.replace('Автоматический ', '').replace('Полуавтоматический ', '').replace('твердотопливный котел ', '').replace('пеллетный котел ', '')}</h3>
                     <div className="product-specs">
                       <div className="spec-item">
