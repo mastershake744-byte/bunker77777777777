@@ -41,13 +41,16 @@ export default function ProductView({ product }: { product: Product }) {
           <h1 className="product-title">{product.name}</h1>
 
 <div className="product-stock-row">
-            <span className="product-label product-label-location">Местоположение</span>
-            <span className="product-label product-label-city">{product.sklad || 'Не указан'}</span>
+            <span className="product-label product-label-power">Мощность: {product.characteristics.power}</span>
           </div>
 
           <div className="product-divider"></div>
 
           <div className="product-specs">
+            <div className="product-spec">
+              <span>Местоположение</span>
+              <strong>{product.sklad || 'Не указан'}</strong>
+            </div>
             <div className="product-spec">
               <span>Номинальная мощность</span>
               <strong>{product.characteristics.power}</strong>
