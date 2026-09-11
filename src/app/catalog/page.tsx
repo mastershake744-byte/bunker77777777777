@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'ru_RU',
     siteName: SITE_NAME,
-    title: 'Каталог твёрдотопливных и пеллетных котлов | Теплоэнергетика',
+    title: 'Каталог твёрдотопливных и пеллетных котлов',
     description: 'Автоматические и полуавтоматические котлы на пеллетах, угле и дровах. От 11 до 1200 кВт.',
     url: `${SITE_URL}/catalog`,
     images: [{ url: ogImage, width: 1200, height: 630 }],

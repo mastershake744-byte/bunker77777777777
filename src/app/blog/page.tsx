@@ -3,11 +3,11 @@ import BlogList from '@/components/Blog/BlogList';
 import { SITE_URL } from '@/data/seo';
 
 export const metadata: Metadata = {
-  title: 'Тепловое оборудование для пеллет | Статьи | Теплоэнергетика',
+  title: 'Тепловое оборудование для пеллет | Статьи',
   description: 'Обзоры пеллетных горелок, котлов и теплового оборудования для пеллет. Полезные статьи и рекомендации от специалистов.',
   alternates: { canonical: `${SITE_URL}/blog/` },
   openGraph: {
-    title: 'Тепловое оборудование для пеллет | Теплоэнергетика',
+    title: 'Тепловое оборудование для пеллет',
     description: 'Статьи о пеллетных горелках, котлах и оборудовании для пеллетного отопления.',
     url: `${SITE_URL}/blog/`,
   },

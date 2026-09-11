@@ -1,16 +1,14 @@
-import { NextRequest } from 'next/server';
+import { SITE_URL } from '@/data/seo';
 
 export async function GET() {
-  const sitemapUrl = process.env.NEXT_PUBLIC_SITE_URL 
-    ? `${process.env.NEXT_PUBLIC_SITE_URL}/sitemap.xml`
-    : 'https://teplo-en.ru/sitemap.xml';
+  const sitemapUrl = `${SITE_URL}/sitemap.xml`;
 
   const robots = `User-agent: *
 Allow: /
 
 Sitemap: ${sitemapUrl}
 
-Host: ${process.env.NEXT_PUBLIC_SITE_URL || 'https://teplo-en.ru'}
+Host: ${SITE_URL}
 
 # Main pages
 Allow: /

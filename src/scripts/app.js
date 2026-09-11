@@ -45,9 +45,9 @@
       // GIF для страницы котла
       if (heroGif) {
         if (theme === 'light') {
-          heroGif.src = '/public/gif/white.gif';
+          heroGif.src = '/gif/white.gif';
         } else {
-          heroGif.src = '/public/gif/green.gif';
+          heroGif.src = '/gif/green.gif';
         }
       }
     }

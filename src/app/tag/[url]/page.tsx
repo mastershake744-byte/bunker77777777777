@@ -24,7 +24,7 @@ function makeTitle(tag: ReturnType<typeof getTagByUrl>, products: Awaited<Return
   if (!tag) return '';
   const razdels = Array.from(new Set(products.map((p) => p.razdel)));
   const head = razdels.length === 1 ? razdels[0] : 'Котлы';
-  return `${head} мощностью ${tag.power} кВт — купить | Теплоэнергетика`;
+  return `${head} мощностью ${tag.power} кВт — купить`;
 }
 
 function makeDescription(tag: ReturnType<typeof getTagByUrl>, products: Awaited<ReturnType<typeof getProductsByTag>>): string {

@@ -2,6 +2,8 @@ import { NextRequest } from 'next/server';
 import { boilersData } from '../../data/products';
 import { categories } from '../../data/categories';
 import { articles } from '../../data/articles';
+import { allTags } from '../../components/Tags/tags';
+import { SITE_URL } from '../../data/seo';
 
 // Helper to extract slugs from products.ts
 function getProductSlugs(): string[] {
@@ -20,7 +22,7 @@ function getProductSlugs(): string[] {
 }
 
 export async function GET(request: NextRequest) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://teplo-en.ru';
+  const baseUrl = SITE_URL;
   const slugs = getProductSlugs();
 
   const urls = slugs.map(slug => `${baseUrl}/product/${slug}`);
@@ -35,16 +37,31 @@ export async function GET(request: NextRequest) {
     .filter(Boolean)
     .map(s => `${baseUrl}/blog/${s}/`);
 
-  urls.push(...categorySlugs, ...articleSlugs);
+  const tagSlugs = allTags
+    .map(t => t.url.replace(/\/$/, ''))
+    .filter(Boolean)
+    .map(s => `${baseUrl}/tag/${s}/`);
+
+  urls.push(...categorySlugs, ...articleSlugs, ...tagSlugs);
 
   // Add other important pages
-  urls.push(
-    baseUrl,
-    `${baseUrl}/katalog`,
-    `${baseUrl}/kontakty`,
-    `${baseUrl}/o-nas`,
-    `${baseUrl}/dostavka-i-oplata`
-  );
+  const staticPages = [
+    '',
+    '/katalog',
+    '/shop',
+    '/catalog',
+    '/category',
+    '/product',
+    '/order',
+    '/search',
+    '/kalkulator',
+    '/delivery',
+    '/blog',
+    '/rekvizity',
+    '/adress',
+    '/data-policy',
+  ];
+  urls.push(...staticPages.map(p => `${baseUrl}${p}`));
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset

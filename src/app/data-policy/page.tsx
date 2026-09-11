@@ -4,11 +4,11 @@ import DataPolicy from '@/components/DataPolicy';
 import { SITE_URL } from '@/data/seo';
 
 export const metadata: Metadata = {
-  title: 'Правила обработки персональных данных — Теплоэнергетика',
+  title: 'Правила обработки персональных данных',
   description: 'Правила обработки персональных данных в соответствии с ФЗ № 152-ФЗ «О персональных данных».',
   alternates: { canonical: `${SITE_URL}/data-policy/` },
   openGraph: {
-    title: 'Правила обработки персональных данных | Теплоэнергетика',
+    title: 'Правила обработки персональных данных',
     description: 'Правила обработки персональных данных в соответствии с ФЗ № 152-ФЗ «О персональных данных».',
     url: `${SITE_URL}/data-policy/`,
   },

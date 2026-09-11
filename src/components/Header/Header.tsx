@@ -14,7 +14,7 @@ export default function Header() {
           <div className="header-top-row">
             <div className="header-left-section">
               <div className="header-logo-wrapper">
-                <a href="#" className="header-logo">
+                <a href="/" className="header-logo">
                   <span className="header-logo-icon">
                     <svg viewBox="0 0 120 120" fill="none">
                       <path d="M15 55L60 15L105 55V98C105 102 102 105 98 105H22C18 105 15 102 15 98V55Z" stroke="currentColor" strokeWidth="7" strokeLinecap="round" strokeLinejoin="round" />

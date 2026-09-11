@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'ru_RU',
     siteName: SITE_NAME,
-    title: 'Категории котлов | Теплоэнергетика',
+    title: 'Категории котлов',
     description: 'Автоматические пеллетные и твердотопливные котлы Вулкан. Выберите серию.',
     url: `${SITE_URL}/category/`,
     images: [{ url: ogImage, width: 1200, height: 630 }],

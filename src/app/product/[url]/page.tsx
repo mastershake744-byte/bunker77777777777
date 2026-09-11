@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import { boilersData, getBoilerByUrl } from '@/data/products';
+import { categories } from '@/data/categories';
 import { SITE_URL, SITE_NAME } from '@/data/seo';
 import ProductView from '@/components/Product';
 
@@ -15,7 +16,7 @@ export function generateMetadata({ params }: { params: { url: string } }): Metad
   const canonical = `${SITE_URL}/product/${params.url}/`;
   const ogImage = product.photo.startsWith('http') ? product.photo : `${SITE_URL}${product.photo}`;
   return {
-    title: `${product.name} — цена ${product.price} | Теплоэнергетика`,
+    title: `${product.name} — цена ${product.price}`,
     description: `${product.name}. Мощность ${product.characteristics.power}, объём бункера ${product.characteristics.bunkerVolume}, вес ${product.characteristics.weight}.`,
     alternates: { canonical },
     openGraph: {
@@ -51,14 +52,24 @@ export default function ProductPage({ params }: { params: { url: string } }) {
     },
   };
 
+  const category = categories.find((c) => c.products.includes(product.id));
+  const breadParts = category
+    ? [
+        { '@type': 'ListItem', position: 1, name: 'Главная', item: SITE_URL },
+        { '@type': 'ListItem', position: 2, name: 'Каталог', item: `${SITE_URL}/catalog` },
+        { '@type': 'ListItem', position: 3, name: category.name, item: `${SITE_URL}/category/${category.url.replace(/\/$/, '')}/` },
+        { '@type': 'ListItem', position: 4, name: product.name, item: `${SITE_URL}/product/${params.url}/` },
+      ]
+    : [
+        { '@type': 'ListItem', position: 1, name: 'Главная', item: SITE_URL },
+        { '@type': 'ListItem', position: 2, name: 'Магазин', item: `${SITE_URL}/shop/` },
+        { '@type': 'ListItem', position: 3, name: product.name, item: `${SITE_URL}/product/${params.url}/` },
+      ];
+
   const breadSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Главная', item: SITE_URL },
-      { '@type': 'ListItem', position: 2, name: 'Магазин', item: `${SITE_URL}/shop/` },
-      { '@type': 'ListItem', position: 3, name: product.name, item: `${SITE_URL}/product/${params.url}/` },
-    ],
+    itemListElement: breadParts,
   };
 
   return (

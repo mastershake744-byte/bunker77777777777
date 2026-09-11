@@ -2,11 +2,14 @@
 import React from 'react';
 import Link from 'next/link';
 import type { Product } from '@/data/products';
+import { categories } from '@/data/categories';
 import { getTagForProduct } from '@/components/Tags/tags';
 
 export default function ProductView({ product }: { product: Product }) {
   const [activeTab, setActiveTab] = React.useState('specifications');
   const [zoomOpen, setZoomOpen] = React.useState(false);
+
+  const category = categories.find((c) => c.products.includes(product.id));
 
   return (
     <section className="product-section">
@@ -19,7 +22,11 @@ export default function ProductView({ product }: { product: Product }) {
             <Link href="/product/" className="breadcrumb-link">Каталог</Link>
           </li>
           <li className="breadcrumb-item">
-            <Link href="/catalog" className="breadcrumb-link">{product.razdel}</Link>
+            {category ? (
+              <Link href={`/category/${category.url.replace(/\/$/, '')}/`} className="breadcrumb-link">{category.name}</Link>
+            ) : (
+              <Link href="/catalog" className="breadcrumb-link">{product.razdel}</Link>
+            )}
           </li>
           <li className="breadcrumb-item active" aria-current="page">
             {product.name}

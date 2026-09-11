@@ -1,0 +1,1401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<yml_catalog date="2026-09-11T14:00:00+05:00">
+  <shop>
+    <name>Теплоэнергетика</name>
+    <company>Теплоэнергетика</company>
+    <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/</url>
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="1">Котлы</category>
+      <category id="2" parentId="1">Пеллетные котлы</category>
+      <category id="3" parentId="1">Твердотопливные котлы</category>
+    </categories>
+    <delivery-options>
+      <option cost="500" days="2-5"/>
+    </delivery-options>
+    <offers>
+      <offer id="1" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-200/</url>
+        <price>908400</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 200</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 200. Мощность 200 кВт, объём бункера 1200 л, вес 1400 кг.</description>
+      </offer>
+      <offer id="2" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-1000/</url>
+        <price>3600000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 1000</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 1000. Мощность 1000 кВт, объём бункера 4000 л, вес 5800 кг.</description>
+      </offer>
+      <offer id="3" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-sigma-50/</url>
+        <price>470000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел SIGMA 50</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/sigma.webp</picture>
+        <vendor>Sigma</vendor>
+        <description>Полуавтоматический твердотопливный котел SIGMA 50. Мощность 50 кВт, объём бункера Загрузочная камера: 135 л, вес 450 кг.</description>
+      </offer>
+      <offer id="4" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-100/</url>
+        <price>375000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 100</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 100. Мощность 100 кВт, объём бункера по запросу, вес по запросу.</description>
+      </offer>
+      <offer id="5" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-uni-max-150/</url>
+        <price>770000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM UNI MAX 150</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/uni.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM UNI MAX 150. Мощность 150 кВт, объём бункера 600 л, вес 900 кг.</description>
+      </offer>
+      <offer id="6" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-start-100-gr/</url>
+        <price>550000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел СТАРТ-100-GR</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/start/100.webp</picture>
+        <vendor>Старт</vendor>
+        <description>Автоматический пеллетный котел СТАРТ-100-GR. Мощность 100 кВт, объём бункера 400 л, вес 840 кг.</description>
+      </offer>
+      <offer id="7" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-40/</url>
+        <price>217000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 40</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 40. Мощность 40 кВт, объём бункера по запросу, вес по запросу.</description>
+      </offer>
+      <offer id="8" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-160/</url>
+        <price>538000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 160</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 160. Мощность 160 кВт, объём бункера по запросу, вес по запросу.</description>
+      </offer>
+      <offer id="9" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-500/</url>
+        <price>1920000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 500</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 500. Мощность 500 кВт, объём бункера 3000 л, вес 2460 кг.</description>
+      </offer>
+      <offer id="10" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-530/</url>
+        <price>1120000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 530</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 530. Мощность 530 кВт, объём бункера по запросу, вес по запросу.</description>
+      </offer>
+      <offer id="11" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-32/</url>
+        <price>269000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko 32</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/vulkan-eco.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko 32. Мощность 32 кВт, объём бункера 300 л, вес 450 кг.</description>
+      </offer>
+      <offer id="12" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-22/</url>
+        <price>182000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 22</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 22. Мощность 22 кВт, объём бункера 200 л, вес 324 кг.</description>
+      </offer>
+      <offer id="13" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-32/</url>
+        <price>322800</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 32</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 32. Мощность 32 кВт, объём бункера 400 л, вес 450 кг.</description>
+      </offer>
+      <offer id="14" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-start-20-gr/</url>
+        <price>290000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел СТАРТ-20-GR</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/start/100.webp</picture>
+        <vendor>Старт</vendor>
+        <description>Автоматический пеллетный котел СТАРТ-20-GR. Мощность 20 кВт, объём бункера 200 л, вес 340 кг.</description>
+      </offer>
+      <offer id="15" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-25/</url>
+        <price>283200</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 25</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 25. Мощность 25 кВт, объём бункера 300 л, вес 410 кг.</description>
+      </offer>
+      <offer id="16" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-150/</url>
+        <price>806400</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 150</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 150. Мощность 150 кВт, объём бункера 800 л, вес 930 кг.</description>
+      </offer>
+      <offer id="17" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-60/</url>
+        <price>373000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko 60</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/vulkan-eco.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko 60. Мощность 60 кВт, объём бункера 600 л, вес 565 кг.</description>
+      </offer>
+      <offer id="18" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-380/</url>
+        <price>894000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 380</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 380. Мощность 380 кВт, объём бункера 1200 л, вес 1850 кг.</description>
+      </offer>
+      <offer id="19" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-red-50/</url>
+        <price>198000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел RED 50</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/red.webp</picture>
+        <vendor>Red</vendor>
+        <description>Полуавтоматический твердотопливный котел RED 50. Мощность 50 кВт, объём бункера Загрузочная камера: 91 л, вес 340 кг.</description>
+      </offer>
+      <offer id="20" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-alpha-20/</url>
+        <price>109000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел ALPHA 20</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/alpha.webp</picture>
+        <vendor>Alpha</vendor>
+        <description>Полуавтоматический твердотопливный котел ALPHA 20. Мощность 20 кВт, объём бункера Загрузочная камера: 69 л, вес 345 кг.</description>
+      </offer>
+      <offer id="21" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-uni-max-100/</url>
+        <price>565000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM UNI MAX 100</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/uni.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM UNI MAX 100. Мощность 100 кВт, объём бункера 600 л, вес 845 кг.</description>
+      </offer>
+      <offer id="22" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-max-300/</url>
+        <price>959000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko Max 300</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/eko-max.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko Max 300. Мощность 300 кВт, объём бункера 1200 л, вес 1850 кг.</description>
+      </offer>
+      <offer id="23" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-11/</url>
+        <price>169000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 11</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 11. Мощность 11 кВт, объём бункера 160 л, вес 270 кг.</description>
+      </offer>
+      <offer id="24" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-uni-max-200/</url>
+        <price>860000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM UNI MAX 200</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/uni.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM UNI MAX 200. Мощность 200 кВт, объём бункера 600 л, вес 1350 кг.</description>
+      </offer>
+      <offer id="25" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-max-200/</url>
+        <price>757000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko Max 200</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/eko-max.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko Max 200. Мощность 200 кВт, объём бункера 590/1200 л, вес 1400 кг.</description>
+      </offer>
+      <offer id="26" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-125/</url>
+        <price>416000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 125</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 125. Мощность 125 кВт, объём бункера по запросу, вес по запросу.</description>
+      </offer>
+      <offer id="27" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-uni-45/</url>
+        <price>300000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM UNI 45</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/uni.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM UNI 45. Мощность 45 кВт, объём бункера 400 л, вес 495 кг.</description>
+      </offer>
+      <offer id="28" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-start-30-gr-v2/</url>
+        <price>315000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел СТАРТ-30-GR-V2</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/start/100.webp</picture>
+        <vendor>Старт</vendor>
+        <description>Автоматический пеллетный котел СТАРТ-30-GR-V2. Мощность 30 кВт, объём бункера 200 л, вес 443 кг.</description>
+      </offer>
+      <offer id="29" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-55/</url>
+        <price>235000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 55</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 55. Мощность 55 кВт, объём бункера по запросу, вес по запросу.</description>
+      </offer>
+      <offer id="30" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-ultra-pro-35/</url>
+        <price>295000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM ULTRA PRO 35</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/ulta.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM ULTRA PRO 35. Мощность 35 кВт, объём бункера 300 л, вес 435 кг.</description>
+      </offer>
+      <offer id="31" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-alpha-32/</url>
+        <price>129000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел ALPHA 32</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/alpha.webp</picture>
+        <vendor>Alpha</vendor>
+        <description>Полуавтоматический твердотопливный котел ALPHA 32. Мощность 32 кВт, объём бункера Загрузочная камера: 97 л, вес 440 кг.</description>
+      </offer>
+      <offer id="32" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-max-133/</url>
+        <price>576000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko Max 133</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/eko-max.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko Max 133. Мощность 133 кВт, объём бункера 590 л, вес 915 кг.</description>
+      </offer>
+      <offer id="33" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-sigma-100/</url>
+        <price>330000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел SIGMA 100</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/sigma.webp</picture>
+        <vendor>Sigma</vendor>
+        <description>Полуавтоматический твердотопливный котел SIGMA 100. Мощность 100 кВт, объём бункера Загрузочная камера: 219 л, вес 850 кг.</description>
+      </offer>
+      <offer id="34" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-geksa-20/</url>
+        <price>265000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел ГЕКСА 20 (HEXA)</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/hexa/1.webp</picture>
+        <vendor>Гекса</vendor>
+        <description>Автоматический пеллетный котел ГЕКСА 20 (HEXA). Мощность 20 кВт, объём бункера 350 л, вес 370 кг.</description>
+      </offer>
+      <offer id="35" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-red-37/</url>
+        <price>149000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел RED 37</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/red.webp</picture>
+        <vendor>Red</vendor>
+        <description>Полуавтоматический твердотопливный котел RED 37. Мощность 37 кВт, объём бункера Загрузочная камера: 83 л, вес 297 кг.</description>
+      </offer>
+      <offer id="36" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-80/</url>
+        <price>440000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko 80</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/vulkan-eco.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko 80. Мощность 80 кВт, объём бункера 600 л, вес 710 кг.</description>
+      </offer>
+      <offer id="37" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-alpha-12/</url>
+        <price>99000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел ALPHA 12</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/alpha.webp</picture>
+        <vendor>Alpha</vendor>
+        <description>Полуавтоматический твердотопливный котел ALPHA 12. Мощность 12 кВт, объём бункера Загрузочная камера: 43 л, вес 268 кг.</description>
+      </offer>
+      <offer id="38" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-sigma-280/</url>
+        <price>610000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел SIGMA 280</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/sigma.webp</picture>
+        <vendor>Sigma</vendor>
+        <description>Полуавтоматический твердотопливный котел SIGMA 280. Мощность 280 кВт, объём бункера Загрузочная камера: 408 л, вес 1550 кг.</description>
+      </offer>
+      <offer id="39" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-90/</url>
+        <price>365000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 90</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 90. Мощность 90 кВт, объём бункера 600 л, вес 740 кг.</description>
+      </offer>
+      <offer id="40" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-geksa-42/</url>
+        <price>335000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел ГЕКСА 42 (HEXA)</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/hexa/1.webp</picture>
+        <vendor>Гекса</vendor>
+        <description>Автоматический пеллетный котел ГЕКСА 42 (HEXA). Мощность 42 кВт, объём бункера 400 л, вес 519 кг.</description>
+      </offer>
+      <offer id="41" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-max-duo-600/</url>
+        <price>2040000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko Max Duo 600</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/max-duo.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko Max Duo 600. Мощность 600 кВт, объём бункера 3000 л, вес 2800 кг.</description>
+      </offer>
+      <offer id="42" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-uni-34/</url>
+        <price>256000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM UNI 34</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/uni.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM UNI 34. Мощность 34 кВт, объём бункера 300 л, вес 435 кг.</description>
+      </offer>
+      <offer id="43" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-360/</url>
+        <price>1428000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 360</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 360. Мощность 360 кВт, объём бункера 1900 л, вес 1900 кг.</description>
+      </offer>
+      <offer id="44" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-max-duo-360/</url>
+        <price>1190000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko Max Duo 360</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/max-duo.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko Max Duo 360. Мощность 360 кВт, объём бункера 1900 л, вес 1900 кг.</description>
+      </offer>
+      <offer id="45" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-max-250/</url>
+        <price>859000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko Max 250</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/eko-max.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko Max 250. Мощность 250 кВт, объём бункера 1200 л, вес 1590 кг.</description>
+      </offer>
+      <offer id="46" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-alpha-25/</url>
+        <price>121000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел ALPHA 25</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/alpha.webp</picture>
+        <vendor>Alpha</vendor>
+        <description>Полуавтоматический твердотопливный котел ALPHA 25. Мощность 25 кВт, объём бункера Загрузочная камера: 88 л, вес 410 кг.</description>
+      </offer>
+      <offer id="47" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-sigma-500/</url>
+        <price>920000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел SIGMA 500</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/sigma.webp</picture>
+        <vendor>Sigma</vendor>
+        <description>Полуавтоматический твердотопливный котел SIGMA 500. Мощность 500 кВт, объём бункера Загрузочная камера: 530 л, вес 3060 кг.</description>
+      </offer>
+      <offer id="48" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-start-150-gr-max/</url>
+        <price>670000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел СТАРТ-150-GR-MAX</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/start/150.webp</picture>
+        <vendor>Старт</vendor>
+        <description>Автоматический пеллетный котел СТАРТ-150-GR-MAX. Мощность 12-150 кВт, объём бункера 800 л, вес 920 кг.</description>
+      </offer>
+      <offer id="49" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-250/</url>
+        <price>1030800</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 250</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 250. Мощность 250 кВт, объём бункера 1200 л, вес 1590 кг.</description>
+      </offer>
+      <offer id="50" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-220/</url>
+        <price>600000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 220</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 220. Мощность 220 кВт, объём бункера 600 л, вес 1450 кг.</description>
+      </offer>
+      <offer id="51" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-sigma-150/</url>
+        <price>470000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел SIGMA 150</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/sigma.webp</picture>
+        <vendor>Sigma</vendor>
+        <description>Полуавтоматический твердотопливный котел SIGMA 150. Мощность 150 кВт, объём бункера Загрузочная камера: 335 л, вес 1020 кг.</description>
+      </offer>
+      <offer id="52" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-alpha-60/</url>
+        <price>179000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел ALPHA 60</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/alpha.webp</picture>
+        <vendor>Alpha</vendor>
+        <description>Полуавтоматический твердотопливный котел ALPHA 60. Мощность 60 кВт, объём бункера Загрузочная камера: 167 л, вес 580 кг.</description>
+      </offer>
+      <offer id="53" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-roteks-200/</url>
+        <price>820000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел Ротекс 200</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/roteks/1.webp</picture>
+        <vendor>Ротекс</vendor>
+        <description>Автоматический пеллетный котел Ротекс 200. Мощность 200 кВт, объём бункера 1300 кг, вес 1800 кг.</description>
+      </offer>
+      <offer id="54" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-40/</url>
+        <price>292000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko 40</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/vulkan-eco.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko 40. Мощность 40 кВт, объём бункера 400 л, вес 500 кг.</description>
+      </offer>
+      <offer id="55" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-geksa-50/</url>
+        <price>365000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел ГЕКСА 50 (HEXA)</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/hexa/1.webp</picture>
+        <vendor>Гекса</vendor>
+        <description>Автоматический пеллетный котел ГЕКСА 50 (HEXA). Мощность 50 кВт, объём бункера 400 л, вес 540 кг.</description>
+      </offer>
+      <offer id="56" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-180/</url>
+        <price>586000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 180</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 180. Мощность 180 кВт, объём бункера 600 л, вес 1400 кг.</description>
+      </offer>
+      <offer id="57" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-red-100/</url>
+        <price>310000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел RED 100</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/red.webp</picture>
+        <vendor>Red</vendor>
+        <description>Полуавтоматический твердотопливный котел RED 100. Мощность 100 кВт, объём бункера Загрузочная камера: 307 л, вес 570 кг.</description>
+      </offer>
+      <offer id="58" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-uni-37/</url>
+        <price>265000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM UNI 37</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/uni.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM UNI 37. Мощность 37 кВт, объём бункера 300 л, вес 460 кг.</description>
+      </offer>
+      <offer id="59" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-sigma-350/</url>
+        <price>720000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел SIGMA 350</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/sigma.webp</picture>
+        <vendor>Sigma</vendor>
+        <description>Полуавтоматический твердотопливный котел SIGMA 350. Мощность 350 кВт, объём бункера Загрузочная камера: 431 л, вес 1980 кг.</description>
+      </offer>
+      <offer id="60" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-uni-max-75/</url>
+        <price>480000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM UNI MAX 75</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/uni.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM UNI MAX 75. Мощность 75 кВт, объём бункера 600 л, вес 800 кг.</description>
+      </offer>
+      <offer id="61" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-sigma-65/</url>
+        <price>215000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел SIGMA 65</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/sigma.webp</picture>
+        <vendor>Sigma</vendor>
+        <description>Полуавтоматический твердотопливный котел SIGMA 65. Мощность 65 кВт, объём бункера Загрузочная камера: 176 л, вес 550 кг.</description>
+      </offer>
+      <offer id="62" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-uni-18/</url>
+        <price>222000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM UNI 18</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/uni.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM UNI 18. Мощность 18 кВт, объём бункера 200 л, вес 325 кг.</description>
+      </offer>
+      <offer id="63" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-max-duo-500/</url>
+        <price>1600000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko Max Duo 500</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/max-duo.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko Max Duo 500. Мощность 500 кВт, объём бункера 1900 л, вес 2460 кг.</description>
+      </offer>
+      <offer id="64" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-uni-max-300/</url>
+        <price>1060000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM UNI MAX 300</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/uni.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM UNI MAX 300. Мощность 300 кВт, объём бункера 1200 л, вес 1700 кг.</description>
+      </offer>
+      <offer id="65" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-33/</url>
+        <price>212000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 33</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 33. Мощность 33 кВт, объём бункера 300 л, вес 420 кг.</description>
+      </offer>
+      <offer id="66" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-red-75/</url>
+        <price>250000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел RED 75</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/red.webp</picture>
+        <vendor>Red</vendor>
+        <description>Полуавтоматический твердотопливный котел RED 75. Мощность 75 кВт, объём бункера Загрузочная камера: 238 л, вес 450 кг.</description>
+      </offer>
+      <offer id="67" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-sigma-80/</url>
+        <price>270000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел SIGMA 80</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/sigma.webp</picture>
+        <vendor>Sigma</vendor>
+        <description>Полуавтоматический твердотопливный котел SIGMA 80. Мощность 80 кВт, объём бункера Загрузочная камера: 184 л, вес 700 кг.</description>
+      </offer>
+      <offer id="68" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-start-35-gr/</url>
+        <price>330000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел СТАРТ-35-GR</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/start/100.webp</picture>
+        <vendor>Старт</vendor>
+        <description>Автоматический пеллетный котел СТАРТ-35-GR. Мощность 35 кВт, объём бункера 300 л, вес 455 кг.</description>
+      </offer>
+      <offer id="69" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-25/</url>
+        <price>236000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko 25</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/vulkan-eco.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko 25. Мощность 25 кВт, объём бункера 300 л, вес 410 кг.</description>
+      </offer>
+      <offer id="70" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-ultra-28/</url>
+        <price>235000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM ULTRA 28</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/ulta.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM ULTRA 28. Мощность 28 кВт, объём бункера 200 л, вес 401 кг.</description>
+      </offer>
+      <offer id="71" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-roteks-15/</url>
+        <price>340000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел Ротекс 15</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/roteks/1.webp</picture>
+        <vendor>Ротекс</vendor>
+        <description>Автоматический пеллетный котел Ротекс 15. Мощность 15 кВт, объём бункера 130 кг, вес 385 кг.</description>
+      </offer>
+      <offer id="72" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-uni-23/</url>
+        <price>226000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM UNI 23</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/uni.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM UNI 23. Мощность 23 кВт, объём бункера 200 л, вес 370 кг.</description>
+      </offer>
+      <offer id="73" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-80/</url>
+        <price>528000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 80</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 80. Мощность 80 кВт, объём бункера 600 л, вес 710 кг.</description>
+      </offer>
+      <offer id="74" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-48/</url>
+        <price>229000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 48</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 48. Мощность 48 кВт, объём бункера 400 л, вес 600 кг.</description>
+      </offer>
+      <offer id="75" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-330/</url>
+        <price>756000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 330</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 330. Мощность 330 кВт, объём бункера 1200 л, вес 1850 кг.</description>
+      </offer>
+      <offer id="76" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-16/</url>
+        <price>173000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 16</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 16. Мощность 16 кВт, объём бункера 160 л, вес 282 кг.</description>
+      </offer>
+      <offer id="77" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-370/</url>
+        <price>894000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 370</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 370. Мощность 370 кВт, объём бункера по запросу, вес по запросу.</description>
+      </offer>
+      <offer id="78" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-ultra-pro-50/</url>
+        <price>320000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM ULTRA PRO 50</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/ulta.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM ULTRA PRO 50. Мощность 50 кВт, объём бункера 400 л, вес 519 кг.</description>
+      </offer>
+      <offer id="79" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-uni-max-135/</url>
+        <price>645000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM UNI MAX 135</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/uni.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM UNI MAX 135. Мощность 135 кВт, объём бункера 600 л, вес 890 кг.</description>
+      </offer>
+      <offer id="80" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-300/</url>
+        <price>1150800</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 300</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 300. Мощность 300 кВт, объём бункера 2000 л, вес 1850 кг.</description>
+      </offer>
+      <offer id="81" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-start-100-gr-zoloudalenie/</url>
+        <price>625000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел СТАРТ-100-GR с золоудалением</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/start/100gr.jpg</picture>
+        <vendor>Старт</vendor>
+        <description>Автоматический пеллетный котел СТАРТ-100-GR с золоудалением. Мощность 8-100 кВт, объём бункера 400 л (700 л — опция), вес 840 кг.</description>
+      </offer>
+      <offer id="82" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-19/</url>
+        <price>224000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko 19</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/vulkan-eco.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko 19. Мощность 19 кВт, объём бункера 300 л, вес 345 кг.</description>
+      </offer>
+      <offer id="83" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-50/</url>
+        <price>392400</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 50</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 50. Мощность 50 кВт, объём бункера 600 л, вес 510 кг.</description>
+      </offer>
+      <offer id="84" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-roteks-25/</url>
+        <price>350000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел Ротекс 25</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/roteks/1.webp</picture>
+        <vendor>Ротекс</vendor>
+        <description>Автоматический пеллетный котел Ротекс 25. Мощность 25 кВт, объём бункера 350 кг, вес 540 кг.</description>
+      </offer>
+      <offer id="85" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-620/</url>
+        <price>1550000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 620</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 620. Мощность 620 кВт, объём бункера по запросу, вес по запросу.</description>
+      </offer>
+      <offer id="86" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-red-27/</url>
+        <price>125000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел RED 27</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/red.webp</picture>
+        <vendor>Red</vendor>
+        <description>Полуавтоматический твердотопливный котел RED 27. Мощность 27 кВт, объём бункера Загрузочная камера: 74 л, вес 240 кг.</description>
+      </offer>
+      <offer id="87" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-red-21/</url>
+        <price>118000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел RED 21</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/red.webp</picture>
+        <vendor>Red</vendor>
+        <description>Полуавтоматический твердотопливный котел RED 21. Мощность 21 кВт, объём бункера Загрузочная камера: 53 л, вес 220 кг.</description>
+      </offer>
+      <offer id="88" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-26/</url>
+        <price>189000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 26</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 26. Мощность 26 кВт, объём бункера 200 л, вес 332 кг.</description>
+      </offer>
+      <offer id="89" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-15/</url>
+        <price>219000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko 15</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/vulkan-eco.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko 15. Мощность 15 кВт, объём бункера 290 л, вес 320 кг.</description>
+      </offer>
+      <offer id="90" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-ultra-pro-100/</url>
+        <price>450000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM ULTRA PRO 100</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/ulta.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM ULTRA PRO 100. Мощность 100 кВт, объём бункера 600 л, вес 850 кг.</description>
+      </offer>
+      <offer id="91" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-19/</url>
+        <price>268800</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 19</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 19. Мощность 19 кВт, объём бункера 300 л, вес 345 кг.</description>
+      </offer>
+      <offer id="92" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-roteks-70/</url>
+        <price>450000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел Ротекс 70</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/roteks/1.webp</picture>
+        <vendor>Ротекс</vendor>
+        <description>Автоматический пеллетный котел Ротекс 70. Мощность 70 кВт, объём бункера 650 кг, вес 970 кг.</description>
+      </offer>
+      <offer id="93" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-470/</url>
+        <price>984000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 470</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 470. Мощность 470 кВт, объём бункера 1200 л, вес 2300 кг.</description>
+      </offer>
+      <offer id="94" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-ultra-35/</url>
+        <price>265000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM ULTRA 35</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/ulta.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM ULTRA 35. Мощность 35 кВт, объём бункера 300 л, вес 435 кг.</description>
+      </offer>
+      <offer id="95" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-115/</url>
+        <price>405000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 115</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 115. Мощность 115 кВт, объём бункера 600 л, вес 800 кг.</description>
+      </offer>
+      <offer id="96" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-roteks-300/</url>
+        <price>990000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел Ротекс 300</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/roteks/1.webp</picture>
+        <vendor>Ротекс</vendor>
+        <description>Автоматический пеллетный котел Ротекс 300. Мощность 300 кВт, объём бункера 1300 кг, вес 2250 кг.</description>
+      </offer>
+      <offer id="97" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-ultra-14/</url>
+        <price>204000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM ULTRA 14</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/ulta.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM ULTRA 14. Мощность 14 кВт, объём бункера 200 л, вес 275 кг.</description>
+      </offer>
+      <offer id="98" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-68/</url>
+        <price>327000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 68</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 68. Мощность 68 кВт, объём бункера 600 л, вес 700 кг.</description>
+      </offer>
+      <offer id="99" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-420/</url>
+        <price>984000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 420</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 420. Мощность 420 кВт, объём бункера по запросу, вес по запросу.</description>
+      </offer>
+      <offer id="100" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-alpha-45/</url>
+        <price>168000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел ALPHA 45</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/alpha.webp</picture>
+        <vendor>Alpha</vendor>
+        <description>Полуавтоматический твердотопливный котел ALPHA 45. Мощность 45 кВт, объём бункера Загрузочная камера: 110 л, вес 490 кг.</description>
+      </offer>
+      <offer id="101" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-ultra-pro-17/</url>
+        <price>240000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM ULTRA PRO 17</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/ulta.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM ULTRA PRO 17. Мощность 17 кВт, объём бункера 200 л, вес 325 кг.</description>
+      </offer>
+      <offer id="102" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-red-14/</url>
+        <price>105000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел RED 14</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/red.webp</picture>
+        <vendor>Red</vendor>
+        <description>Полуавтоматический твердотопливный котел RED 14. Мощность 14 кВт, объём бункера Загрузочная камера: 31 л, вес 196 кг.</description>
+      </offer>
+      <offer id="103" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-60/</url>
+        <price>447600</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 60</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 60. Мощность 60 кВт, объём бункера 600 л, вес 565 кг.</description>
+      </offer>
+      <offer id="104" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-800/</url>
+        <price>2832000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 800</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 800. Мощность 800 кВт, объём бункера 4000 л, вес 4500 кг.</description>
+      </offer>
+      <offer id="105" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-ultra-pro-22/</url>
+        <price>250000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM ULTRA PRO 22</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/ulta.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM ULTRA PRO 22. Мощность 22 кВт, объём бункера 200 л, вес 370 кг.</description>
+      </offer>
+      <offer id="106" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-geksa-35/</url>
+        <price>290000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел ГЕКСА 35 (HEXA)</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/hexa/1.webp</picture>
+        <vendor>Гекса</vendor>
+        <description>Автоматический пеллетный котел ГЕКСА 35 (HEXA). Мощность 35 кВт, объём бункера 350 л, вес 435 кг.</description>
+      </offer>
+      <offer id="107" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-ultra-50/</url>
+        <price>287000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM ULTRA 50</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/ulta.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM ULTRA 50. Мощность 50 кВт, объём бункера 400 л, вес 519 кг.</description>
+      </offer>
+      <offer id="108" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-uni-12/</url>
+        <price>204000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM UNI 12</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/uni.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM UNI 12. Мощность 12 кВт, объём бункера 200 л, вес 275 кг.</description>
+      </offer>
+      <offer id="109" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-roteks-100/</url>
+        <price>560000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел Ротекс 100</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/roteks/1.webp</picture>
+        <vendor>Ротекс</vendor>
+        <description>Автоматический пеллетный котел Ротекс 100. Мощность 100 кВт, объём бункера 650 кг, вес 970 кг.</description>
+      </offer>
+      <offer id="110" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-start-30-gr/</url>
+        <price>315000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел СТАРТ-30-GR</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/start/100.webp</picture>
+        <vendor>Старт</vendor>
+        <description>Автоматический пеллетный котел СТАРТ-30-GR. Мощность 30 кВт, объём бункера 300 л, вес 420 кг.</description>
+      </offer>
+      <offer id="111" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-max-duo-800/</url>
+        <price>2360000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko Max Duo 800</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/max-duo.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko Max Duo 800. Мощность 800 кВт, объём бункера 3000 л, вес 4500 кг.</description>
+      </offer>
+      <offer id="112" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-50/</url>
+        <price>327000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko 50</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/vulkan-eco.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko 50. Мощность 50 кВт, объём бункера 400 л, вес 510 кг.</description>
+      </offer>
+      <offer id="113" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-100/</url>
+        <price>508000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko 100</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/vulkan-eco.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko 100. Мощность 100 кВт, объём бункера 600 л, вес 790 кг.</description>
+      </offer>
+      <offer id="114" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-max-duo-1000/</url>
+        <price>3000000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko Max Duo 1000</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/max-duo.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko Max Duo 1000. Мощность 1000 кВт, объём бункера 4000 л, вес 5800 кг.</description>
+      </offer>
+      <offer id="115" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-sigma-200/</url>
+        <price>540000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел SIGMA 200</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/sigma.webp</picture>
+        <vendor>Sigma</vendor>
+        <description>Полуавтоматический твердотопливный котел SIGMA 200. Мощность 200 кВт, объём бункера Загрузочная камера: 340 л, вес 1350 кг.</description>
+      </offer>
+      <offer id="116" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-uni-27/</url>
+        <price>236000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM UNI 27</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/uni.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM UNI 27. Мощность 27 кВт, объём бункера 200 л, вес 401 кг.</description>
+      </offer>
+      <offer id="117" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-75/</url>
+        <price>335000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 75</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 75. Мощность 75 кВт, объём бункера по запросу, вес по запросу.</description>
+      </offer>
+      <offer id="118" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-alpha-15/</url>
+        <price>84000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел ALPHA 15</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/alpha.webp</picture>
+        <vendor>Alpha</vendor>
+        <description>Полуавтоматический твердотопливный котел ALPHA 15. Мощность 15 кВт, объём бункера Загрузочная камера: 49 л, вес 290 кг.</description>
+      </offer>
+      <offer id="119" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-15/</url>
+        <price>262800</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 15</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 15. Мощность 15 кВт, объём бункера 300 л, вес 320 кг.</description>
+      </offer>
+      <offer id="120" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-ultra-22/</url>
+        <price>223000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM ULTRA 22</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/ulta.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM ULTRA 22. Мощность 22 кВт, объём бункера 200 л, вес 370 кг.</description>
+      </offer>
+      <offer id="121" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-ultra-17/</url>
+        <price>212000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM ULTRA 17</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/ulta.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM ULTRA 17. Мощность 17 кВт, объём бункера 200 л, вес 325 кг.</description>
+      </offer>
+      <offer id="122" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-max-duo-400/</url>
+        <price>1340000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko Max Duo 400</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/max-duo.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko Max Duo 400. Мощность 400 кВт, объём бункера 1900 л, вес 2300 кг.</description>
+      </offer>
+      <offer id="123" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-ultra-pro-28/</url>
+        <price>265000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM ULTRA PRO 28</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/ulta.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM ULTRA PRO 28. Мощность 28 кВт, объём бункера 200 л, вес 401 кг.</description>
+      </offer>
+      <offer id="124" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-40/</url>
+        <price>350400</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 40</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 40. Мощность 40 кВт, объём бункера 400 л, вес 500 кг.</description>
+      </offer>
+      <offer id="125" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-roteks-40/</url>
+        <price>390000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел Ротекс 40</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/roteks/1.webp</picture>
+        <vendor>Ротекс</vendor>
+        <description>Автоматический пеллетный котел Ротекс 40. Мощность 40 кВт, объём бункера 350 кг, вес 735 кг.</description>
+      </offer>
+      <offer id="126" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-140/</url>
+        <price>525000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 140</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 140. Мощность 140 кВт, объём бункера 600 л, вес 915 кг.</description>
+      </offer>
+      <offer id="127" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-600/</url>
+        <price>2448000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 600</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 600. Мощность 600 кВт, объём бункера 3000 л, вес 2800 кг.</description>
+      </offer>
+      <offer id="128" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-uni-55/</url>
+        <price>312000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM UNI 55</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/uni.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM UNI 55. Мощность 55 кВт, объём бункера 400 л, вес 519 кг.</description>
+      </offer>
+      <offer id="129" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-geksa-25/</url>
+        <price>275000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел ГЕКСА 25 (HEXA)</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/hexa/1.webp</picture>
+        <vendor>Гекса</vendor>
+        <description>Автоматический пеллетный котел ГЕКСА 25 (HEXA). Мощность 25 кВт, объём бункера 350 л, вес 405 кг.</description>
+      </offer>
+      <offer id="130" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-geksa-15/</url>
+        <price>245000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел ГЕКСА 15 (HEXA)</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/hexa/1.webp</picture>
+        <vendor>Гекса</vendor>
+        <description>Автоматический пеллетный котел ГЕКСА 15 (HEXA). Мощность 15 кВт, объём бункера 350 л, вес 325 кг.</description>
+      </offer>
+      <offer id="131" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-optimum-uni-max-250/</url>
+        <price>940000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел OPTIMUM UNI MAX 250</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/uni.webp</picture>
+        <vendor>Optimum</vendor>
+        <description>Автоматический пеллетный котел OPTIMUM UNI MAX 250. Мощность 250 кВт, объём бункера 1200 л, вес 1420 кг.</description>
+      </offer>
+      <offer id="132" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-400/</url>
+        <price>1608000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 400</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 400. Мощность 400 кВт, объём бункера 1900 л, вес 2300 кг.</description>
+      </offer>
+      <offer id="133" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-vulkan-eko-max-150/</url>
+        <price>672000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел VULKAN Eko Max 150</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/eko-max.webp</picture>
+        <vendor>Vulkan</vendor>
+        <description>Автоматический пеллетный котел VULKAN Eko Max 150. Мощность 150 кВт, объём бункера 590 л, вес 930 кг.</description>
+      </offer>
+      <offer id="134" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-red-150/</url>
+        <price>415000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Полуавтоматический твердотопливный котел RED 150</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/vulkan/red.webp</picture>
+        <vendor>Red</vendor>
+        <description>Полуавтоматический твердотопливный котел RED 150. Мощность 150 кВт, объём бункера Загрузочная камера: 329 л, вес 890 кг.</description>
+      </offer>
+      <offer id="135" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-133/</url>
+        <price>691200</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 133</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 133. Мощность 133 кВт, объём бункера 800 л, вес 915 кг.</description>
+      </offer>
+      <offer id="136" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-start-50-gr/</url>
+        <price>410000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел СТАРТ-50-GR</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/categories/start/100.webp</picture>
+        <vendor>Старт</vendor>
+        <description>Автоматический пеллетный котел СТАРТ-50-GR. Мощность 50 кВт, объём бункера 400 л, вес 620 кг.</description>
+      </offer>
+      <offer id="137" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-feniks-100/</url>
+        <price>609600</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <name>Автоматический пеллетный котел ФЕНИКС 100</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/f.webp</picture>
+        <vendor>Феникс</vendor>
+        <description>Автоматический пеллетный котел ФЕНИКС 100. Мощность 100 кВт, объём бункера 800 л, вес 790 кг.</description>
+      </offer>
+      <offer id="138" type="vendor.model" available="true">
+        <url>https://xn--90ahqccr2a8a0eya.xn--p1ai/product/kotel-boss-270/</url>
+        <price>669000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <name>Автоматический пеллетный котел BOSS 270</name>
+        <picture>https://xn--90ahqccr2a8a0eya.xn--p1ai/images/product/vulkan/boss.webp</picture>
+        <vendor>Boss</vendor>
+        <description>Автоматический пеллетный котел BOSS 270. Мощность 270 кВт, объём бункера 600 л, вес 1720 кг.</description>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>

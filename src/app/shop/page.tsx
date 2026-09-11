@@ -8,14 +8,14 @@ import { SITE_URL } from '@/data/seo';
 const ogImage = `${SITE_URL}/images/og-default.jpg`;
 
 export const metadata: Metadata = {
-  title: 'Магазин котлов | Теплоэнергетика',
+  title: 'Магазин котлов',
   description: 'Все котлы Теплоэнергетика: пеллетные, твердотопливные, полуавтоматические. Категории, модели, цены. Доставка по всей России.',
   alternates: { canonical: `${SITE_URL}/shop/` },
   openGraph: {
     type: 'website',
     locale: 'ru_RU',
     siteName: 'Теплоэнергетика',
-    title: 'Магазин котлов | Теплоэнергетика',
+    title: 'Магазин котлов',
     description: 'Все котлы Теплоэнергетика: пеллетные, твердотопливные, полуавтоматические.',
     url: `${SITE_URL}/shop/`,
     images: [{ url: ogImage, width: 1200, height: 630 }],

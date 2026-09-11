@@ -6,8 +6,8 @@ import { SITE_URL, SITE_NAME, SITE_DESCRIPTION } from '@/data/seo';
 const ogImage = `${SITE_URL}/images/og-default.jpg`;
 
 export const metadata: Metadata = {
-  title: SITE_NAME,
-  description: SITE_DESCRIPTION,
+  title: 'Котёл с бункером купить — пеллетные, твердотопливные, автоматические | Теплоэнергетика',
+  description: 'Котлы с бункером длительного горения на пеллетах. Котел пеллетный автоматический с бункером цена. Котлы с низким бункером и верхним из Красноярска.',
   alternates: { canonical: SITE_URL },
   openGraph: {
     type: 'website',

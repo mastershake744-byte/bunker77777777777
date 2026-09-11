@@ -1991,3 +1991,171 @@ body.light-mode .fuel-calc-desc {
 body.light-mode .fuel-calc-desc strong {
     color: #1f2937;
 }
+
+/* ===== SITE HEADER ===== */
+.site-header {
+    width: 100%;
+}
+
+/* ===== HERO SECTION (главная) ===== */
+.hero {
+    padding: 60px 0 40px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero-image-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image-block img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+#heroGif {
+    max-width: 100%;
+    border-radius: 16px;
+}
+
+.hero-buttons {
+    margin-top: 12px;
+}
+
+#btnPrimary {
+    background: #2e7d32;
+    color: #fff;
+    border: none;
+}
+
+body.light-mode #btnPrimary {
+    background: #f57c00;
+}
+
+#btnPrimary:hover {
+    background: #1a472a;
+}
+
+body.light-mode #btnPrimary:hover {
+    background: #e65100;
+}
+
+#btnSecondary {
+    border-color: #2e7d32;
+    color: #2e7d32;
+    background: transparent;
+}
+
+body.light-mode #btnSecondary {
+    border-color: #f57c00;
+    color: #f57c00;
+}
+
+#btnSecondary:hover {
+    background: rgba(46,125,50,.08);
+}
+
+body.light-mode #btnSecondary:hover {
+    background: rgba(245,124,0,.08);
+}
+
+#heroBadge {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid;
+}
+
+.dark-mode #heroBadge {
+    color: #81c784;
+    border-color: #81c784;
+}
+
+.light-mode #heroBadge {
+    color: #f57c00;
+    border-color: #f57c00;
+}
+
+.dark-mode #heroSpan {
+    color: #81c784;
+}
+
+.light-mode #heroSpan {
+    color: #f57c00;
+}
+
+.dark-mode #heroText {
+    color: #94a3b8;
+}
+
+.light-mode #heroText {
+    color: #475569;
+}
+
+#schemaTitle {
+    transition: color .3s;
+}
+
+.dark-mode #schemaTitle {
+    color: #81c784;
+}
+
+.light-mode #schemaTitle {
+    color: #e65100;
+}
+
+#schemaText {
+    transition: color .3s;
+}
+
+.dark-mode #schemaText {
+    color: #94a3b8;
+}
+
+.light-mode #schemaText {
+    color: #475569;
+}
+
+#schemaCaption,
+#schemaCaptionSpan,
+#schemaList {
+    transition: color .3s;
+}
+
+#schemaList span {
+    transition: color .3s;
+}
+
+.dark-mode #schemaList span {
+    color: #e2e8f0;
+}
+
+.light-mode #schemaList span {
+    color: #1e293b;
+}
+
+/* Testimonial card (схема обвязки) */
+.testimonial-card {
+    border-radius: 16px;
+    border: 1px solid;
+    overflow: hidden;
+}
+
+.dark-mode .testimonial-card {
+    background: #1e293b;
+    border-color: #334155;
+}
+
+.light-mode .testimonial-card {
+    background: #fff;
+    border-color: #e9edf2;
+}

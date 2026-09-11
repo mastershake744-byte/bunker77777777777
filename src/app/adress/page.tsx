@@ -3,11 +3,11 @@ import type { Metadata } from 'next';
 import { SITE_URL } from '@/data/seo';
 
 export const metadata: Metadata = {
-  title: 'Реквизиты и контакты — Теплоэнергетика',
+  title: 'Реквизиты и контакты',
   description: 'Адрес, телефоны, email и карта компании Теплоэнергетика. Челябинск, ул. Автодорожная, д. 17.',
   alternates: { canonical: `${SITE_URL}/adress` },
   openGraph: {
-    title: 'Реквизиты и контакты | Теплоэнергетика',
+    title: 'Реквизиты и контакты',
     description: 'Адрес, телефоны, email и карта компании Теплоэнергетика.',
     url: `${SITE_URL}/adress`,
   },

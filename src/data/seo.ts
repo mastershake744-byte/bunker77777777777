@@ -1,4 +1,4 @@
-export const SITE_URL = 'https://teplo-en.ru';
+export const SITE_URL = 'https://xn--90ahqccr2a8a0eya.xn--p1ai';
 export const SITE_NAME = 'Теплоэнергетика';
 export const SITE_DESCRIPTION =
   'Твёрдотопливные, пеллетные и автоматические котлы Вулкан для дома и бизнеса. От 11 до 1200 кВт. Работаем с НДС, доставка по РФ.';

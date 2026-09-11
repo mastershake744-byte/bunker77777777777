@@ -11,11 +11,8 @@ const ogImage = `${SITE_URL}/images/og-default.jpg`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: {
-    default: `${SITE_NAME} — твёрдотопливные и пеллетные котлы`,
-    template: `%s | ${SITE_NAME}`,
-  },
-  description: SITE_DESCRIPTION,
+  title: 'Котёл с бункером купить — пеллетные, твердотопливные, автоматические | Теплоэнергетика',
+  description: 'Котлы с бункером длительного горения на пеллетах. Котел пеллетный автоматический с бункером цена. Котлы с низким бункером и верхним из Красноярска.',
   verification: {
     yandex: '923e9952fb11296f',
   },
@@ -26,7 +23,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "ru_RU",
     siteName: SITE_NAME,
-    title: `${SITE_NAME} — твёрдотопливные и пеллетные котлы`,
+    title: `${SITE_NAME} — котлы с бункером: купить пеллетные и твердотопливные`,
     description: SITE_DESCRIPTION,
     url: SITE_URL,
     images: [{ url: ogImage, width: 1200, height: 630 }],
@@ -59,6 +56,27 @@ export default function RootLayout({
 
   return (
     <html lang="ru">
+      <head>
+        <meta name="yandex-verification" content="I5ANRZVl28oDZQnDul70iTL46y4O_qh0h7bWIG_VJpI" />
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `(function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=112455472', 'ym');
+
+    ym(112455472, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});`,
+          }}
+        />
+        <noscript>
+          <div>
+            <img src="https://mc.yandex.ru/watch/112455472" style={{ position: 'absolute', left: '-9999px' }} alt="" />
+          </div>
+        </noscript>
+      </head>
       <body className="dark-mode" id="mainBody">
         <Header />
         {children}
