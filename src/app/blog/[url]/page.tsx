@@ -77,8 +77,7 @@ export default function BlogArticlePage({ params }: { params: { url: string } })
               <div style={{fontSize:18,fontWeight:800,color:'var(--accent)',marginBottom:10}}>{m.price}</div>
               <div style={{fontSize:13,color:'var(--muted)',marginBottom:12}}>В наличии</div>
               <div style={{marginTop:'auto',display:'flex',gap:8}}>
-                <a href="/order/" style={{flex:1,textAlign:'center',padding:'9px 10px',borderRadius:8,background:'var(--accent)',color:'#000',fontWeight:700,fontSize:14,textDecoration:'none'}}>Купить</a>
-                <a href="/order/" style={{flex:1,textAlign:'center',padding:'9px 10px',borderRadius:8,border:'1px solid #5555',color:'var(--text)',fontWeight:600,fontSize:14,textDecoration:'none'}}>В 1 клик</a>
+                <a href={`tel:+73512208088`} style={{flex:1,textAlign:'center',padding:'9px 10px',borderRadius:8,background:'var(--accent)',color:'#000',fontWeight:700,fontSize:14,textDecoration:'none'}}>Консультация</a>
               </div>
             </div>
           </div>

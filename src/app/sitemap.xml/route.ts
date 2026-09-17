@@ -52,7 +52,6 @@ export async function GET(request: NextRequest) {
     '/catalog',
     '/category',
     '/product',
-    '/order',
     '/search',
     '/kalkulator',
     '/delivery',

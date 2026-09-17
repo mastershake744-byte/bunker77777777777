@@ -12,10 +12,10 @@ export default function Hero3D() {
                 Теплоэнергетика
               </div>
               <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
-                Пеллетные и твердотопливные котлы<span className="transition-all duration-300" id="heroSpan"> Вулкан с бункером</span>
+                Пеллетные и твердотопливные котлы<span className="transition-all duration-300" id="heroSpan"> с бункером</span>
               </h1>
               <p className="text-lg md:text-xl leading-relaxed mb-8 transition-all duration-300" id="heroText">
-                Автоматизированная подача пеллет, вместительный бункер и стабильная работа даже в условиях ограниченной транспортной доступности — решение для удалённых объектов. Котлы Вулкан от 11 до 1200 кВт в наличии на складе в Красноярске.
+                Автоматизированная подача пеллет, вместительный бункер и стабильная работа даже в условиях ограниченной транспортной доступности — решение для удалённых объектов. Автоматические котлы от 11 до 1200 кВт в наличии на складе в Красноярске.
               </p>
               <div className="hero-buttons flex flex-col sm:flex-row gap-4">
                 <a href="/shop/" className="px-8 py-3 rounded-lg font-semibold inline-block text-center" id="btnPrimary" style={{textDecoration:'none'}}>
@@ -32,7 +32,7 @@ export default function Hero3D() {
               <img
                 id="heroGif"
                 src="/gif/green.gif"
-                alt="Пеллетный котёл Вулкан с бункером"
+                alt="Пеллетный котёл с бункером"
                 width={600}
                 height={400}
               />

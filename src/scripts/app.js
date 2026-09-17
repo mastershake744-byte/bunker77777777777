@@ -3,7 +3,7 @@
 
   // ====================================================================
   //   ЕДИНЫЙ СКРИПТ САЙТА — app.js
-  //   Содержит: тему, меню, каталог, калькулятор, товары, заказ
+  //   Содержит: тему, меню, каталог, калькулятор, товары
   //   Подключается в scripts.php одним <script>
   // ====================================================================
 
@@ -178,7 +178,7 @@
         '<div class="spec"><strong>' + p.eff + '%</strong><small>КПД</small></div></div>' +
         '<div class="price">' + p.price.toLocaleString('ru-RU') + ' ₽</div>' +
         '<div class="stock">' + (p.stock ? '● В наличии' : '● Под заказ') + '</div>' +
-        '<div class="product-actions"><button class="details" onclick="location=\'/product.php\'">Подробнее →</button><button class="buy" onclick="alert(\'Товар добавлен в заявку\')">В заявку</button></div></div></article>';
+        '<div class="product-actions"><button class="details" onclick="location=\'/product.php\'">Подробнее →</button></div></div></article>';
     }
 
     function render() {
@@ -480,87 +480,6 @@
     }
   };
 
-  // ====================== МОДАЛКА ЗАКАЗА ======================
-  window.openOrderModal = function () {
-    var modal = document.getElementById('orderModal');
-    if (!modal) return;
-    modal.classList.add('active');
-    document.body.style.overflow = 'hidden';
-    var form = document.getElementById('orderForm');
-    var success = document.getElementById('orderSuccess');
-    var error = document.getElementById('phoneError');
-    if (form) form.classList.remove('hidden');
-    if (success) success.classList.remove('visible');
-    if (error) error.classList.remove('visible');
-    var phone = document.getElementById('orderPhone');
-    if (phone) phone.classList.remove('error');
-    var frm = document.getElementById('orderForm');
-    if (frm) frm.reset();
-    var started = document.getElementById('orderFormStarted');
-    if (started) started.value = Math.floor(Date.now() / 1000);
-  };
-
-  window.closeOrderModal = function () {
-    var modal = document.getElementById('orderModal');
-    if (modal) {
-      modal.classList.remove('active');
-      document.body.style.overflow = '';
-    }
-  };
-
-  window.submitOrder = function (e) {
-    e.preventDefault();
-    var form = document.getElementById('orderForm');
-    var success = document.getElementById('orderSuccess');
-    if (!form || !success) return;
-
-    var hp = document.getElementById('orderWebsite');
-    if (hp && hp.value.trim() !== '') return;
-
-    var startedEl = document.getElementById('orderFormStarted');
-    var started = startedEl ? parseInt(startedEl.value, 10) : 0;
-    if (started > 0 && (Math.floor(Date.now() / 1000) - started) < 3) return;
-
-    var phoneInput = document.getElementById('orderPhone');
-    var nameInput = document.getElementById('orderName');
-    var errorEl = document.getElementById('phoneError');
-    if (!phoneInput || !errorEl) return;
-
-    var phone = phoneInput.value.trim();
-    var name = nameInput ? nameInput.value.trim() : '';
-    var digits = phone.replace(/\D/g, '');
-
-    if (digits.length === 0 || !/^[78]/.test(digits)) {
-      errorEl.textContent = 'Номер должен начинаться с 7 или 8';
-      errorEl.classList.add('visible');
-      phoneInput.classList.add('error');
-      phoneInput.focus();
-      return;
-    }
-
-    var normalized = digits;
-    if (normalized.startsWith('8')) normalized = '7' + normalized.slice(1);
-    if (normalized.length < 10) {
-      errorEl.textContent = 'Введите номер полностью (10–11 цифр)';
-      errorEl.classList.add('visible');
-      phoneInput.classList.add('error');
-      phoneInput.focus();
-      return;
-    }
-
-    errorEl.classList.remove('visible');
-    phoneInput.classList.remove('error');
-
-    var xhr = new XMLHttpRequest();
-    xhr.open('POST', '/order.php', true);
-    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    xhr.onload = function () {
-      form.classList.add('hidden');
-      success.classList.add('visible');
-    };
-    xhr.send('name=' + encodeURIComponent(name) + '&phone=' + encodeURIComponent('+' + normalized) + '&product=VULKAN Eko Max 133 кВт');
-  };
-
   // ====================== DOMContentLoaded — ИНИЦИАЛИЗАЦИЯ ======================
   document.addEventListener('DOMContentLoaded', function () {
     initTheme();
@@ -577,27 +496,12 @@
         if (e.target === e.currentTarget) closeProductZoom();
       });
     }
-    var orderModal = document.getElementById('orderModal');
-    if (orderModal) {
-      orderModal.addEventListener('click', function (e) {
-        if (e.target === this) closeOrderModal();
-      });
-    }
-
-    // Кнопки "Заказать" с #order
-    document.querySelectorAll('.product-btn-primary[href="#order"], a[href="#order"]').forEach(function (btn) {
-      btn.addEventListener('click', function (e) {
-        e.preventDefault();
-        openOrderModal();
-      });
-    });
   });
 
   // Закрытие модалок по Escape
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') {
       closeProductZoom();
-      closeOrderModal();
     }
   });
 })();

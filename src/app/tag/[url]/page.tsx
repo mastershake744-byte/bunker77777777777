@@ -20,11 +20,9 @@ function tagRazdels(tagUrl: string): string[] {
   return Array.from(new Set(getProductsByTag(tag).map((p) => p.razdel)));
 }
 
-function makeTitle(tag: ReturnType<typeof getTagByUrl>, products: Awaited<ReturnType<typeof getProductsByTag>>): string {
+function makeTitle(tag: ReturnType<typeof getTagByUrl>, _products: Awaited<ReturnType<typeof getProductsByTag>>): string {
   if (!tag) return '';
-  const razdels = Array.from(new Set(products.map((p) => p.razdel)));
-  const head = razdels.length === 1 ? razdels[0] : 'Котлы';
-  return `${head} мощностью ${tag.power} кВт — купить`;
+  return `Котлы пеллетные мощностью ${tag.power} кВт - купить с бункером автоматика`;
 }
 
 function makeDescription(tag: ReturnType<typeof getTagByUrl>, products: Awaited<ReturnType<typeof getProductsByTag>>): string {
