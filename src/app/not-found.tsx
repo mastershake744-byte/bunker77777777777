@@ -64,7 +64,7 @@ export default function NotFound() {
         Страница не найдена — её словно унесло камнем от Годзиллы
       </p>
 
-      <Link href="/catalog" className="not-found-link">
+      <Link href="/catalog/" className="not-found-link">
         Перейти в каталог
         <span>→</span>
       </Link>

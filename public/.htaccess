@@ -1,0 +1,28 @@
+DirectoryIndex index.html
+
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Явные 301: страницы без слеша -> со слешем (SEO-корректно, без вскрытия пути public_html)
+RewriteRule ^(?:chelkotel/public_html/)?katalog$ /katalog/ [R=301,L]
+RewriteRule ^(?:chelkotel/public_html/)?shop$ /shop/ [R=301,L]
+RewriteRule ^(?:chelkotel/public_html/)?catalog$ /catalog/ [R=301,L]
+RewriteRule ^(?:chelkotel/public_html/)?category$ /category/ [R=301,L]
+RewriteRule ^(?:chelkotel/public_html/)?product$ /product/ [R=301,L]
+RewriteRule ^(?:chelkotel/public_html/)?search$ /search/ [R=301,L]
+RewriteRule ^(?:chelkotel/public_html/)?kalkulator$ /kalkulator/ [R=301,L]
+RewriteRule ^(?:chelkotel/public_html/)?delivery$ /delivery/ [R=301,L]
+RewriteRule ^(?:chelkotel/public_html/)?blog$ /blog/ [R=301,L]
+RewriteRule ^(?:chelkotel/public_html/)?rekvizity$ /rekvizity/ [R=301,L]
+RewriteRule ^(?:chelkotel/public_html/)?adress$ /adress/ [R=301,L]
+RewriteRule ^(?:chelkotel/public_html/)?data-policy$ /data-policy/ [R=301,L]
+
+# Правильный 404 для несуществующих URL
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ /404.html [R=404,L]
+</IfModule>
+
+Options -Indexes

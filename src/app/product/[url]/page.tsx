@@ -56,7 +56,7 @@ export default function ProductPage({ params }: { params: { url: string } }) {
   const breadParts = category
     ? [
         { '@type': 'ListItem', position: 1, name: 'Главная', item: SITE_URL },
-        { '@type': 'ListItem', position: 2, name: 'Каталог', item: `${SITE_URL}/catalog` },
+        { '@type': 'ListItem', position: 2, name: 'Каталог', item: `${SITE_URL}/catalog/` },
         { '@type': 'ListItem', position: 3, name: category.name, item: `${SITE_URL}/category/${category.url.replace(/\/$/, '')}/` },
         { '@type': 'ListItem', position: 4, name: product.name, item: `${SITE_URL}/product/${params.url}/` },
       ]

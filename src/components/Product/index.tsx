@@ -46,7 +46,7 @@ export default function ProductView({ product }: { product: Product }) {
             {category ? (
               <Link href={`/category/${category.url.replace(/\/$/, '')}/`} className="breadcrumb-link">{category.name}</Link>
             ) : (
-              <Link href="/catalog" className="breadcrumb-link">{product.razdel}</Link>
+              <Link href="/catalog/" className="breadcrumb-link">{product.razdel}</Link>
             )}
           </li>
           <li className="breadcrumb-item active" aria-current="page">

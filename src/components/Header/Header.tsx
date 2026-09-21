@@ -78,7 +78,7 @@ export default function Header() {
             <a href="/delivery/">Конфигуратор</a>
             <a href="/blog/">Статьи</a>
             <a href="/rekvizity/">Реквизиты</a>
-            <a href="/adress">Адрес</a>
+            <a href="/adress/">Адрес</a>
           </nav>
         </div>
       </header>

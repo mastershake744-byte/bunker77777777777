@@ -211,6 +211,14 @@ background:var(--accent);color:#000;font-weight:700;border-color:var(--accent);
 .pagination a.arrow{font-size:22px;font-weight:400}
 .pagination .dots{color:var(--muted);letter-spacing:2px}
 
+.category-seo{margin-top:48px;padding-top:32px;border-top:1px solid #5553;color:var(--text)}
+.category-seo h2{font-size:22px;font-weight:800;line-height:1.25;margin:28px 0 14px;color:var(--text)}
+.category-seo h3{font-size:18px;font-weight:700;line-height:1.3;margin:22px 0 12px;color:var(--text)}
+.category-seo p{margin:0 0 16px;line-height:1.75;color:var(--muted)}
+.category-seo ul,.category-seo ol{margin:0 0 18px;padding-left:22px;color:var(--muted);line-height:1.7}
+.category-seo li{margin-bottom:8px}
+.category-seo strong{color:var(--text)}
+
 @media(max-width:1100px){.grid{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:800px){
 .catalog-header{flex-direction:column}
@@ -230,7 +238,7 @@ background:var(--accent);color:#000;font-weight:700;border-color:var(--accent);
               return (
                 <span key={i} style={{display:'inline-flex',alignItems:'center',gap:6}}>
                   <svg viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"/></svg>
-                  {isLast ? <span className="current">{part}</span> : <a href="/catalog">Каталог</a>}
+                  {isLast ? <span className="current">{part}</span> : <a href="/catalog/">Каталог</a>}
                 </span>
               );
             })}
@@ -307,6 +315,10 @@ background:var(--accent);color:#000;font-weight:700;border-color:var(--accent);
               <span className="dots">…</span>
               <a href="#" className="arrow" aria-label="Следующая страница">›</a>
             </nav>
+          )}
+
+          {category.seo_text && (
+            <div className="category-seo" dangerouslySetInnerHTML={{ __html: category.seo_text }} />
           )}
         </div>
       </section>

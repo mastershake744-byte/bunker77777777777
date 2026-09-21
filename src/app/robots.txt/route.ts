@@ -16,7 +16,6 @@ Allow: /
 # Disallow admin and API
 Disallow: /admin/
 Disallow: /api/
-Disallow: /_next/
 Disallow: /static/
 
 # Crawl-delay for bots

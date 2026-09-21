@@ -4,12 +4,12 @@ import DeliveryCalculator from '@/components/Deliver';
 import { SITE_URL } from '@/data/seo';
 
 export const metadata: Metadata = {
-  title: 'Конфигуратор доставки',
-  description: 'Калькулятор стоимости доставки котлов и оборудования. Расчёт по весу, габаритам и расстоянию по тарифам Деловых Линий.',
-  alternates: { canonical: `${SITE_URL}/delivery/` },
-  openGraph: {
-    title: 'Конфигуратор доставки',
-    description: 'Калькулятор стоимости доставки котлов и оборудования. Расчёт по весу, габаритам и расстоянию.',
+title: 'Расчёт доставки пеллетного котла - Теплоэнергетика',
+    description: 'Доставка пеллетного котла с автоматической подачей с бункером. Доставка котлы длительного горения.',
+    alternates: { canonical: `${SITE_URL}/delivery/` },
+    openGraph: {
+    title: 'Расчёт доставки пеллетного котла - Теплоэнергетика',
+    description: 'Доставка пеллетного котла с автоматической подачей с бункером. Доставка котлы длительного горения.',
     url: `${SITE_URL}/delivery/`,
   },
 };

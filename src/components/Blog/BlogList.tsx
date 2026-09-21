@@ -146,7 +146,7 @@ background:var(--accent);color:#000;font-weight:700;border-color:var(--accent);
                     ))}
                   </div>
                   <h3>{a.name}</h3>
-                  <p>{a.text.length > 120 ? a.text.slice(0, 120) + '...' : a.text}</p>
+                  <p>{a.text.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 120)}...</p>
                   <div className="blog-footer">Читать →</div>
                 </div>
               </Link>

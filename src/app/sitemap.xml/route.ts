@@ -60,7 +60,7 @@ export async function GET(request: NextRequest) {
     '/adress',
     '/data-policy',
   ];
-  urls.push(...staticPages.map(p => `${baseUrl}${p}`));
+  urls.push(...staticPages.map(p => `${baseUrl}${p}/`));
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset

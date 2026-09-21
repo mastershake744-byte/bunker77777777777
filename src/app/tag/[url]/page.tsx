@@ -180,7 +180,7 @@ body{font-family:Arial,sans-serif;background:var(--bg);color:var(--text);transit
             <a href="/">Главная</a>
             <span style={{display:'inline-flex',alignItems:'center',gap:6}}>
               <svg viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"/></svg>
-              <a href="/catalog">Каталог</a>
+              <a href="/catalog/">Каталог</a>
             </span>
             <span style={{display:'inline-flex',alignItems:'center',gap:6}}>
               <svg viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"/></svg>
