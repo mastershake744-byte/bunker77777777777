@@ -3,7 +3,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import { getTagByUrl, getProductsByTag, allTags, normalizePower } from '@/components/Tags/tags';
-import { SITE_URL, SITE_NAME } from '@/data/seo';
+import { SITE_URL, SITE_NAME, clampTitle } from '@/data/seo';
 
 export function generateStaticParams() {
   return allTags.map((t) => ({ url: t.url }));
@@ -22,7 +22,7 @@ function tagRazdels(tagUrl: string): string[] {
 
 function makeTitle(tag: ReturnType<typeof getTagByUrl>, _products: Awaited<ReturnType<typeof getProductsByTag>>): string {
   if (!tag) return '';
-  return `Котлы пеллетные мощностью ${tag.power} кВт - купить с бункером автоматика`;
+  return clampTitle(`Котлы пеллетные мощностью ${tag.power} кВт - купить с бункером автоматика`);
 }
 
 function makeDescription(tag: ReturnType<typeof getTagByUrl>, products: Awaited<ReturnType<typeof getProductsByTag>>): string {

@@ -6,3 +6,9 @@ export const SITE_LOGO = `${SITE_URL}/images/logo.png`;
 export const ORG_ADDRESS = '454902, г. Челябинск, пос. Шершни, ул. Гостевая 3, офис 103';
 export const ORG_PHONE = '+7 (351) 220-80-88';
 export const ORG_EMAIL = 'kotli@teplo-en.ru';
+
+export function clampTitle(s: string, max = 70): string {
+  const t = s.trim();
+  if (t.length <= max) return t;
+  return t.slice(0, max - 1).trimEnd() + '…';
+}

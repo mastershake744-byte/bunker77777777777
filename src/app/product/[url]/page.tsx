@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import { boilersData, getBoilerByUrl } from '@/data/products';
 import { categories } from '@/data/categories';
-import { SITE_URL, SITE_NAME } from '@/data/seo';
+import { SITE_URL, SITE_NAME, clampTitle } from '@/data/seo';
 import ProductView from '@/components/Product';
 
 export function generateStaticParams() {
@@ -15,12 +15,13 @@ export function generateMetadata({ params }: { params: { url: string } }): Metad
   if (!product) return {};
   const canonical = `${SITE_URL}/product/${params.url}/`;
   const ogImage = product.photo.startsWith('http') ? product.photo : `${SITE_URL}${product.photo}`;
+  const title = clampTitle(`${product.name} — водогрейные котлы`);
   return {
-    title: `${product.name} — цена ${product.price}`,
+    title,
     description: `${product.name}. Мощность ${product.characteristics.power}, объём бункера ${product.characteristics.bunkerVolume}, вес ${product.characteristics.weight}.`,
     alternates: { canonical },
     openGraph: {
-      title: `${product.name} — цена ${product.price}`,
+      title,
       description: `${product.name}. Мощность ${product.characteristics.power} кВт, бункер ${product.characteristics.bunkerVolume} л, вес ${product.characteristics.weight} кг.`,
       url: canonical,
       siteName: SITE_NAME,

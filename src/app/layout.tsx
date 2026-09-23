@@ -11,7 +11,7 @@ const ogImage = `${SITE_URL}/images/og-default.jpg`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: 'Котёл с бункером купить — пеллетные, твердотопливные, автоматические | Теплоэнергетика',
+  title: 'Котлы с бункером купить — пеллетные и твердотопливные котлы',
   description: 'Котлы с бункером длительного горения на пеллетах. Котел пеллетный автоматический с бункером цена. Котлы с низким бункером и верхним из Красноярска.',
   verification: {
     yandex: '923e9952fb11296f',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "ru_RU",
     siteName: SITE_NAME,
-    title: `${SITE_NAME} — котлы с бункером: купить пеллетные и твердотопливные`,
+    title: `${SITE_NAME} — котлы с бункером: пеллетные и твердотопливные`,
     description: SITE_DESCRIPTION,
     url: SITE_URL,
     images: [{ url: ogImage, width: 1200, height: 630 }],

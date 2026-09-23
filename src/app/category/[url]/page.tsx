@@ -4,7 +4,7 @@ import { boilersData } from '@/data/products';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import Script from 'next/script';
-import { SITE_URL, SITE_NAME } from '@/data/seo';
+import { SITE_URL, SITE_NAME, clampTitle } from '@/data/seo';
 import { getTagForProduct } from '@/components/Tags/tags';
 
 export function generateStaticParams() {
@@ -16,15 +16,16 @@ export function generateMetadata({ params }: { params: { url: string } }): Metad
     (c) => c.url.replace(/\/$/, '') === params.url.replace(/\/$/, '')
   );
   if (!category) return {};
+  const title = clampTitle(category.seo_title);
   return {
-    title: category.seo_title,
+    title,
     description: category.seo_description,
     alternates: { canonical: `${SITE_URL}/category/${params.url}/` },
     openGraph: {
       type: 'website',
       locale: 'ru_RU',
       siteName: SITE_NAME,
-      title: category.seo_title,
+      title,
       description: category.seo_description,
       url: `${SITE_URL}/category/${params.url}/`,
       images: [{ url: `${SITE_URL}/images/og-default.jpg`, width: 1200, height: 630 }],
